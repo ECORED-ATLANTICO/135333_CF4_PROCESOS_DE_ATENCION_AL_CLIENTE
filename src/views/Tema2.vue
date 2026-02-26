@@ -107,46 +107,36 @@
         p.mb-0(data-aos="fade-right") Las principales características del sistema de calidad se resume en:
 
       .col-md-12.col-lg-10.mb-4
-        .row.align-items-center
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema2/img07.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Eficiencia en los procesos u ocupaciones de la organización (mejora de costos).
+        .row.align-items-stretch.justify-content-center.justify-content-xl-start
+          .col-md-6.col-lg-6
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img07.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Eficiencia en los procesos u ocupaciones de la organización (mejora de costos).
 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema2/img08.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Mejora importante en la satisfacción de los consumidores.
+          .col-md-6.col-lg-6
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img08.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Mejora importante en la satisfacción de los consumidores.
 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema2/img09.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Herramienta de comunicación para optimización de la Imagen de la organización.
+          .col-md-6.col-lg-6
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img09.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Herramienta de comunicación para optimización de la Imagen de la organización.
 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Aumento del ingreso al mercado, sin parámetros de fronteras.
+          .col-md-6.col-lg-6
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Aumento del ingreso al mercado, sin parámetros de fronteras.
 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Incremento de la comunicación interna, satisfacción de los trabajadores.
+          .col-md-6.col-lg-6
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Incremento de la comunicación interna, satisfacción de los trabajadores.
 
       .col-md-12.col-lg-10
         p.mb-3 La norma ISO 9001 mira el pro y el contra en el personal la esencia de la organización, y promueve su formación, colaboración y liderazgo en todos los niveles, además, los motiva y permite que sus capacidades sean utilizadas para el beneficio de la organización.

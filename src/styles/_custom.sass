@@ -21,16 +21,16 @@
     top: 20%
     right: 0%
   &-2
-    animation: girar 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 45%
-    right: 80%
+    top: 73%
+    right: 14%
 
   &-3
     position: absolute
-    top: 20%
+    top: 70%
     right: 80%
-    animation: girar 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
 
 @keyframes float1
   0%
@@ -225,19 +225,61 @@ figcaption
 
 // Tabs A
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #FFD256
+  background-color: #A5B9F6
+  color: #000 !important
 .tabs-a__tab
-  background-color: #DBDBDA
+  &.color-acento-botones
+    background-color: #DBE3FB
 .tarjeta.color-acento-botones--borde
-  background-color: #F1F6F9
-  border: solid 4px #F1F6F9
+  background-color: #DBE3FB
+  border: solid 4px #DBE3FB
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #A5B9F6
+
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  background-color: #A5B9F6
+
+// Tabs A color secundario
+.tabs-a.color-secundario .tabs-a__tab__selected
+  background-color: #B7AF2D
+  color: #000 !important
+
+.tabs-a__tab
+  &.color-secundario
+    background-color: #EAE7AD !important
+
+.tarjeta.color-secundario--borde
+  background-color: #EAE7AD
+  border: solid 4px #EAE7AD
+
+.tabs-a.color-secundario .tabs-a__tab__selected:before
+  background-color: #B7AF2D
+
+.tabs-a.color-secundario .tabs-a__tab:hover, .tabs-a.color-secundario .tabs-a__tab:active, .tabs-a.color-secundario .tabs-a__tab:focus
+  background-color: #B7AF2D
 
 .tabs-a__content-item
   display: flex
   height: 100%
+  width: 100%
 
 .tabs-a__content-item.h-auto
   height: auto !important
+
+.tabs-a.tabs-a--h-auto
+  .tabs-a__content-item
+    height: auto !important
+
+.tabs-a.tabs-a--yellow
+  .tabs-a__tab
+    background-color: #EAE7AD
+  .tabs-a__tab__selected
+    background-color: #B7AF2D
+    &:before
+      background-color: #B7AF2D
+  .tabs-a__content-item
+    height: auto !important
 
 .tabs-a
   .row
@@ -469,9 +511,9 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #E2E7F7
+  background-color: #F6F8FE
   color: #000
-  border: solid 4px #E2E7F7 !important
+  border: solid 4px #F6F8FE !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
@@ -667,3 +709,48 @@ a, button, div
   height: 1px
   background-color: #12263F
   margin: 0.5rem 0
+
+.align-items-stretch
+  align-items: stretch !important
+
+.custom-mh
+  height: -webkit-fill-available
+
+.tarjeta-label__icon
+  top: 50%
+  left: 0
+  transform: translate(-50%, -50%)
+
+.img-85
+  max-width: 85px
+  margin: 0 auto
+
+.rounded-4
+  border-radius: var(--bs-border-radius-xl) !important
+
+.position-relative
+  position: relative !important
+
+.position-absolute
+  position: absolute !important
+
+.tabs-b__content-item
+  background-color: #FDFCF9 !important
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-bottom-color: #A5B9F6 !important
+  background-color: #FDFCF9 !important
+
+// pasos
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
+  border-color: #A5B9F6 !important
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea:after
+  border-left-color: #A5B9F6 !important
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line
+  border-top-color: #A5B9F6 !important
+.pasos-a.color-acento-contenido .pasos-a__numero:after
+  border-left-color: #A5B9F6 !important
+.pasos-a.color-acento-contenido .pasos-a__numero:before
+  border-left-color: #A5B9F6 !important
+.pasos-a__linea div
+  border-radius: 0px !important

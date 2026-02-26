@@ -54,56 +54,48 @@
         p.mb-0 En una organización también se debe contar con el mínimo número posible de indicadores que garanticen contar con información constante, real y precisa sobre aspectos tales como:
 
       .col-md-12.col-lg-10.mb-4
-        .row.justify-content-center
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Efectividad.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Eficiencia.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Eficacia.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img08.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Productividad.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img09.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Calidad.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Ejecución presupuestal.
-          .col-lg-3.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Incidencia de la gestión.
+        .row.align-items-stretch.justify-content-center
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Efectividad.
+         
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Eficiencia.
+                
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Eficacia.
+                
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img08.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Productividad.
+          
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img09.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Calidad.
+         
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Ejecución presupuestal.
+         
+          .col-md-4.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Incidencia de la gestión.
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
@@ -171,20 +163,20 @@
             figure
               img(src="@/assets/curso/temas/tema3/img12.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
-            TabsA.color-acento-botones
-              .tarjeta.color-acento-botones--borde.p-5(titulo="¿Qué?")
+            TabsA.color-secundario.tabs-a--yellow
+              .tarjeta.color-secundario--borde.p-5(titulo="¿Qué?")
                 h4 ¿Qué?
                 p.m-0 Lluvia de ideas sobre las variables, que pueden proporcionar medios para medir los objetivos.
-              .tarjeta.color-acento-botones--borde.p-5(titulo="¿Cuánto?")
+              .tarjeta.color-secundario--borde.p-5(titulo="¿Cuánto?")
                 h4 ¿Cuánto?
                 p.m-0 Para definir la magnitud del cambio que queremos conseguir.
-              .tarjeta.color-acento-botones--borde.p-5(titulo="¿Quiénes?")
+              .tarjeta.color-secundario--borde.p-5(titulo="¿Quiénes?")
                 h4 ¿Quiénes?
                 p.m-0 Para aclarar quién pertenece al grupo objetivo.
-              .tarjeta.color-acento-botones--borde.p-5(titulo="¿Dónde?")
+              .tarjeta.color-secundario--borde.p-5(titulo="¿Dónde?")
                 h4 ¿Dónde?
                 p.m-0 Información específica sobre la zona de intervención.
-              .tarjeta.color-acento-botones--borde.p-5(titulo="¿Cuándo?")
+              .tarjeta.color-secundario--borde.p-5(titulo="¿Cuándo?")
                 h4 ¿Cuándo?
                 p.m-0 Definición del marco temporal.
 
@@ -267,7 +259,7 @@
                 img(src="@/assets/curso/temas/tema3/img17.svg", data-aos="zoom-in")
             .col-lg-6.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema3/img18.svg", data-aos="zoom-in", style="max-width: 60%;")
+                img(src="@/assets/curso/temas/tema3/img18.svg", data-aos="zoom-in", style="max-width: 60%;").mx-auto
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
@@ -356,7 +348,7 @@
                     span K
                   | Proyección y benchmarking externos.
 
-            .col-lg-5.mb-3.mb-lg-0
+            .col-md-8.col-lg-5.mb-3.mb-lg-0.mt-md-3
               figure
                 img(src="@/assets/curso/temas/tema3/img20.png", data-aos="zoom-in")
 
@@ -462,7 +454,7 @@
       .row.justify-content-center.align-items-center.mb-4()
         .col-md-12.col-lg-10
           .row.justify-content-center.align-items-center.bg-color-13
-            .col-lg-10.mb-2.mb-lg-0.p-5.order-md-2
+            .col-lg-10.mb-2.mb-lg-0.p-5.order-md-2.order-lg-1
               ol.lista-ol--cuadro.mb-0
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
@@ -499,7 +491,7 @@
                     span G
                   | Impacto: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
 
-            .col-md-6.col-lg-2.mb-2.mb-lg-0.order-md-1.mt-md-4
+            .col-md-6.col-lg-2.mb-2.mb-lg-0.order-md-1.mt-md-4.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema3/img21.svg", data-aos="zoom-in")
 
@@ -620,7 +612,7 @@
 
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
-        TabsA.color-acento-botones
+        TabsA.color-acento-botones.tabs-a--h-auto
           .tarjeta.color-acento-botones--borde.p-4.h-auto(titulo="Meta")
             .row.justify-content-center.align-items-center
               .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
