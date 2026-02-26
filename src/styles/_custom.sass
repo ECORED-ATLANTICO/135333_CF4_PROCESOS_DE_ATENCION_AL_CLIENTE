@@ -104,6 +104,11 @@ figcaption
     &::before
       background-color: #8C8FEC
 
+.cajon.bg-primario
+  background-color: #BCEFEA
+  &::before
+    background-color: #21C9B8
+
 .bg-color-white
   background-color: white !important
   border: 1px solid $lightest-gray
@@ -219,13 +224,21 @@ figcaption
       bottom: -20px
 
 // Tabs A
-.tabs-a__tab
-  background-color: #F1F6F9
 .tabs-a.color-acento-botones .tabs-a__tab__selected
   background-color: #FFD256
+.tabs-a__tab
+  background-color: #DBDBDA
+.tarjeta.color-acento-botones--borde
+  background-color: #F1F6F9
+  border: solid 4px #F1F6F9
+
 .tabs-a__content-item
   display: flex
   height: 100%
+
+.tabs-a__content-item.h-auto
+  height: auto !important
+
 .tabs-a
   .row
     .mb-3
@@ -282,11 +295,15 @@ figcaption
     .acordion__contenido__item
       padding-bottom: 0rem!important
     &--azul
-      background-color: #DBF8F6 !important
+      background-color: #FAF9EA !important
       p,h3
         color: #12263F
     &--azul.acordion__activo
-      background: #F5F5F5 !important
+      // background: #ff0000 !important
+
+      background-image: url(../assets/curso/temas/tema3/img19.png) !important
+      background-repeat: no-repeat
+      background-size: cover
       p,h3
         color: #12263F
       .acordion__accion__btn--a
@@ -432,6 +449,18 @@ a, button, div
 
 .bg-color-10
   background-color: #BCEFEA
+
+.bg-color-11
+  background-color: #F6F8FE
+
+.bg-color-12
+  background-color: #A5B9F6
+
+.bg-color-13
+  background-color: #FAF9EA
+
+.bg-color-14
+  background-color: #CBC232
 
 // Tarjetas bg
 .bg-acento-contenido
@@ -618,3 +647,23 @@ a, button, div
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+.lista-ol--cuadro__vineta
+  background-color: #A5B9F6 !important
+  color: #12263F !important
+  font-weight: bold !important
+  &.bg-color-14
+    background-color: #CBC232 !important
+    color: #12263F !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle
+  background-color: #A5B9F6 !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle:after
+  border-left-color: #A5B9F6 !important
+
+.hr-line
+  width: 100%
+  height: 1px
+  background-color: #12263F
+  margin: 0.5rem 0
