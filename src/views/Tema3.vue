@@ -237,7 +237,45 @@
           .col-lg-8
             p.mb-3(data-aos="fade-right") Interpretar un indicador de gestión es indicar lo que está ocurriendo en un proceso específico o actividad, para ello se procede a la toma de decisiones que son, generalmente, opciones de mejora para corregir cuando su resultado se desvía de lo esperado y mejorar los resultados en el menor tiempo posible.
             p.mb-0(data-aos="fade-right") En la cultura de la medición del desempeño de las organizaciones y cuando se interpretan o se leen los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica, que son los niveles de tolerancia de los indicadores y que nos envían señales de alerta.
+ 
+    //- puntos calientes semaforo
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.bg-color-6.p-4.mb-4.mb-lg-0
+        h4 Los rangos de tolerancia
+        p Las señales de alarma permiten monitorear la gestión y determinar cuándo hay variación frente al rango de tolerancia. Esto conlleva a:
+        hr
+        ol.lista-ol.lista-ol--separador
+          li 
+            span.text-bold a. 
+            | Analizar las variaciones.
+          li 
+            span.text-bold b. 
+            | Implementar medidas correctivas.
+        hr
+        p Se definen utilizando la metáfora del semáforo:
 
+
+      .col-12.col-md-8.col-lg-6.mb-3.mb-lg-0
+        ImagenInfografica.color-primario.d-none.d-lg-block
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/img.svg', alt='Texto que describa la imagen')
+              //- figcaption Leyenda de la imagen
+
+          .tarjeta.bg-rojo.p-3(x="13.3%" y="16%" numero="")
+            .h5.mb-2 Rojo
+            p Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico.
+
+          .tarjeta.bg-amarillo.p-3(x="13.3%" y="41.5%" numero="")
+            .h5.mb-2 Amarillo
+            p Niveles preocupantes del indicador. Revisión de políticas – Aceptable.
+
+          .tarjeta.bg-verde.p-3(x="13.3%" y="68%" numero="")
+            .h5.mb-2 Verde
+            p Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.
+
+        figure.d-sm-block.d-lg-none
+          img(src='@/assets/curso/temas/tema3/img02m.svg', alt='Semáforo que muestra estado: Rojo: Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico. Amarillo: Niveles preocupantes del indicador. Revisión de políticas – Aceptable. Verde: Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.')
     
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10

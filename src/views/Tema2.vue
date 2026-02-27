@@ -152,8 +152,8 @@
             b Figura 3. 
             span Pasos a seguir para que la empresa sea certificada con ISO 9001
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img20.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema2/img21.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/temas/tema2/img21.svg', alt='').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/temas/tema2/img20.svg', alt='').mx-auto.d-sm-block.d-lg-none.d-md-none
 
         figcaption 
           b Nota. 
