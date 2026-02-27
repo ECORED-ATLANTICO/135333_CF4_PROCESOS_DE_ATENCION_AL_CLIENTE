@@ -88,18 +88,13 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Interpretación de indicadores de gestión (KPI)',
+            titulo: 'Aplicabilidad de los KPI',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Aplicabilidad de los KPI',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
             titulo: 'Reporte de los KPI',
-            hash: 't_3_4',
+            hash: 't_3_3',
           },
         ],
       },

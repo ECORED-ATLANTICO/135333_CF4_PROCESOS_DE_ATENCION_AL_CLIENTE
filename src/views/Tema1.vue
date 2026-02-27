@@ -25,8 +25,17 @@
           .col-12.col-md-6.col-lg-7
             p A continuación, se verá un poco más de las leyes que protegen el derecho a los datos personales, en su orden cronológico.
 
-            figure.mb-3
-              img(src='@/assets/curso/temas/tema1/img33.png', alt='Texto que describa la imagen')
+            .custom-list.mb-3
+              .custom-list__header.p-3.text-center
+                b Leyes y decretos
+              .custom-list__item.p-3.text-center
+                | Ley 1273 de 2009
+              .custom-list__item.p-3.text-center
+                | Ley 1581 de octubre de 2012
+              .custom-list__item.p-3.text-center
+                | Decreto 1377 de 2013
+              .custom-list__item.p-3.text-center
+                | Decreto 1074 de 2015
 
             p El siguiente video resume los aspectos más relevantes de la ley que rige los estatutos para la protección de datos personales, así como los decretos ya mencionados, que la reglamentan o modifican.
 
@@ -45,96 +54,97 @@
 
     p.mb-4 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
     
-    .row.mb-4.justify-content-center
-      .col-md-12.col-lg-12
-        .row.align-items-stretch.justify-content-center.justify-content-xl-start
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img04.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Edad.
+    .bg-full-width.bg-fondo-1
+      .row.mb-4.justify-content-center
+        .col-md-12.col-lg-12
+          .row.align-items-stretch.justify-content-center.justify-content-xl-start
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img04.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Edad.</b>
 
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img05.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Nombre.
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img05.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Nombre.</b>
 
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img06.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Documento de identidad.
-        
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img07.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Números telefónicos de contacto.
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img06.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Documento de identidad.</b>
           
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img08.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Correo electrónico.
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img07.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Números telefónicos de contacto.</b>
+            
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img08.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Correo electrónico.</b>
 
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img09.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Número de seguridad social.
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img09.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Número de seguridad social.</b>
 
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Dirección de domicilio.
-        
-          .col-md-6.col-lg-3
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Entre otros.
-    
-    
-    .row.justify-content-center.mb-4
-      .col-md-12.col-lg-10
-        p.mb-3 Todas las empresas colombianas que manejan clientes y colaboradores deben dar cumplimiento a la normativa de protección de datos y garantizar el derecho constitucional que tienen las personas para el manejo del tratamiento de datos personales.
-        p.mb-0 La política que establezcan las organizaciones para la protección de datos debe cobijar la responsabilidad del manejo de la información por parte de:
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Dirección de domicilio.
+          
+            .col-md-6.col-lg-3
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Entre otros.
+      
+      
+      .row.justify-content-center.mb-4
+        .col-md-12.col-lg-10
+          p.mb-3 Todas las empresas colombianas que manejan clientes y colaboradores deben dar cumplimiento a la normativa de protección de datos y garantizar el derecho constitucional que tienen las personas para el manejo del tratamiento de datos personales.
+          p.mb-0 La política que establezcan las organizaciones para la protección de datos debe cobijar la responsabilidad del manejo de la información por parte de:
 
 
-    .row.justify-content-center.mb-3
-      .col-md-12.col-lg-10
-        .row.align-items-stretch.justify-content-center.justify-content-xl-start.mb-0
-          .col-md-6.col-lg-4
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Colaboradores.
+      .row.justify-content-center.mb-3
+        .col-md-12.col-lg-10
+          .row.align-items-stretch.justify-content-center.justify-content-xl-start.mb-0
+            .col-md-6.col-lg-4
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Colaboradores.
 
-          .col-md-6.col-lg-4
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Terceros que presten servicios a la empresa.
+            .col-md-6.col-lg-4
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Terceros que presten servicios a la empresa.
 
-          .col-md-6.col-lg-4
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Contratistas.
+            .col-md-6.col-lg-4
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Contratistas.
 
-          .col-md-6.col-lg-4
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Operadores.
+            .col-md-6.col-lg-4
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Operadores.
 
-          .col-md-6.col-lg-8
-            .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
+            .col-md-6.col-lg-8
+              .tarjeta-container.mb-4.custom-mh
+                .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -147,9 +157,9 @@
             h3.subtitle.position-relative Categoría de datos
               img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
 
-    .bg-full-width.bg-fondo-5.tarjeta.mb-5
-      .p-5
-        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+    .bg-fondo-5.tarjeta.mb-5
+      .p-4.p-lg-5
+        SlyderA(tipo="b").bg-color-white.p-2.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
               h4 Datos sensibles
@@ -262,14 +272,14 @@
         .col-md-12.col-lg-10
           .posit_5.bg-color-10.p-3.mb-5
             .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
+              .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/tema1/img27.svg")
-              .col
+                  img(src="@/assets/curso/temas/tema1/img27.svg").img90.mx-auto
+              .col-12.col-md-10.col-lg-11
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.m-0.text-small Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, "Legislación en protección de datos personales en Colombia" o bien puede visualizarlo dando clic en el botón.
-                  .col-sm-auto.p-lg-4
+                    p.m-0 Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, <b>"Legislación en protección de datos personales en Colombia"</b> o bien puede visualizarlo dando clic en el botón.
+                  .col-sm-auto.p-lg-4.text-center
                     a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/n4GaN2DuI9Q" target="_blank")
                       span ver video
                       i.fas.fa-file-download
@@ -281,12 +291,12 @@
           .titulo-sexto.color-acento-contenido
             h5 
               b Tabla 1. 
-              span PQR
           .tabla-a.color-acento-contenido
             table
-              caption Fuente: SENA 2026
+              caption Nota: SENA 2026
               thead
                 tr
+                  th(colspan="2")
               tbody
                 tr
                   td <b>Artículo 23 de la Constitución Política de Colombia (1991)</b>
@@ -326,8 +336,8 @@
       .col-md-12.col-lg-10
         .bg-color-10.mb-5
           .row.p-5.justify-around
-            .col-12.col-lg-6
-              ul.lista-ul
+            .col-12.col-lg-7
+              ul.lista-ul.mb-0
                 li 
                   i.fas.fa-check.bg-color-5
                   | Mecanismo para cumplir con las políticas y normativas locales e internacionales.
@@ -343,8 +353,8 @@
                 li 
                   i.fas.fa-check.bg-color-5
                   | Ofrecer un método de control y seguimiento de las existencias.
-            .col-12.col-lg-4
-              ul.lista-ul
+            .col-12.col-lg-5
+              ul.lista-ul.mb-0
                 li 
                   i.fas.fa-check.bg-color-5
                   | Activar las alertas de incumplimiento en tiempo real.
@@ -379,7 +389,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img30.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Normalmente, la logística se ocupa de los eventos que llevan el producto hacia el cliente. En el caso de la logística inversa, el recurso retrocede, al menos, un paso en la cadena de suministro. Por ejemplo, la mercancía pasa del cliente al distribuidor o al fabricante. Cualquier proceso o gestión posterior a la venta del producto implica una logística inversa. Si el producto es defectuoso, el cliente lo devolvería. La empresa fabricante tendría entonces que organizar el envío del producto defectuoso, probar el producto, desmontarlo, repararlo, reciclarlo o eliminarlo.
+            p.mb-0 Normalmente, la logística se ocupa de los eventos que llevan el producto hacia el cliente. En el caso de la logística inversa, el recurso retrocede, al menos, un paso en la cadena de suministro. Por ejemplo, la mercancía pasa del cliente al distribuidor o al fabricante. <b>Cualquier proceso o gestión posterior a la venta del producto implica una logística inversa.</b> Si el producto es defectuoso, el cliente lo devolvería. La empresa fabricante tendría entonces que organizar el envío del producto defectuoso, probar el producto, desmontarlo, repararlo, reciclarlo o eliminarlo.
 
 
       .col-md-12.col-lg-10.mb-4
@@ -401,7 +411,7 @@
           //- figcaption Video: Leyenda del video
  
       .col-md-12.col-lg-10
-        p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
+        p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
 
     separador
 
@@ -423,7 +433,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/img32.png", data-aos="zoom-in")
       .col-lg-8
-        p.mb-3 Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF): estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
+        p.mb-3 <b>Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF):</b> estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
 
         p.mb-0 Para la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos (PQR) se usa un mismo canal administrativo, pero tiene un tratamiento y un seguimiento particular; por esta razón, el primer paso del proceso de PQR es el formato de recepción que debe, de manera clara y definida, determinar en cuál de las tres tipologías se clasifica la inquietud del cliente respecto del servicio prestado.
 
@@ -431,11 +441,11 @@
       .bgr_6
         .row.justify-center
           .col-12.col-lg-12
-            .row.bgr_7
-              .col-12.col-lg-5
+            .row.bgr_7.align-items-center
+              .col-12.col-lg-5.mb-3.mb-lg-0
                 figure
                   img.posit_3(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-6.align-items-center
+              .col-12.col-lg-6
                 p Al igual una petición, queja o reclamo, la respuesta debe ser clara y <b>emitirse dentro de los tiempos estipulados por la ley</b>, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
         .row.justify-center
           .col-12.col-lg-10.align-items-center
@@ -452,7 +462,7 @@
               figure
                 img.img-120(src="@/assets/curso/temas/tema1/img37.svg")
           h4.text-center.mb-3 Proceso
-          p.text-center El proceso de PQR es importante. Cumplir los tiempos establecidos reduce la posibilidad de que se interpongan sanciones por entidades de control, como lo es la Superintendencia de Industria y Comercio.
+          p.text-center El proceso de <b>PQR</b> es importante. Cumplir los tiempos establecidos reduce la posibilidad de que se interpongan sanciones por entidades de control, como lo es la Superintendencia de Industria y Comercio.
 
       .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
         .tarjeta.bg-fondo-2.p-4.h-100
@@ -461,7 +471,7 @@
               figure
                 img.img-120(src="@/assets/curso/temas/tema1/img38.svg")
           h4.text-center.mb-3 Canales
-          p.text-center.mb-3 Los canales para la presentación de una PQR más usados son:
+          p.text-center.mb-3 Los canales para la presentación de una <b>PQR</b> más usados son:
           p.mb-1.text-center Oficinas de servicio al cliente.
           p.mb-1.text-center Call center.
           p.mb-1.text-center Página web.
@@ -473,21 +483,21 @@
               figure
                 img.img-120(src="@/assets/curso/temas/tema1/img39.svg")
           h4.text-center.mb-3 Sistema
-          p.text-center Un sistema de PQR es el instrumento para el control y mejoramiento constante de los servicios y procesos, así como el responsable de crear la fidelización para los clientes.
+          p.text-center Un sistema de <b>PQR</b> es el instrumento para el control y mejoramiento constante de los servicios y procesos, así como el responsable de crear la fidelización para los clientes.
 
     .row.justify-content-center.align-items-center.mb-1
       .col-md-12.col-lg-10
         .posit_5.bg-color-10.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
               figure
-                img(src="@/assets/curso/temas/tema1/img40.svg")
-            .col
+                img(src="@/assets/curso/temas/tema1/img40.svg").img90.mx-auto
+            .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.m-0.text-small En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos.
+                  p.m-0 En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica <b>la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos.</b>
 
-                .col-sm-auto.p-lg-4
+                .col-sm-auto.p-lg-4.text-center
                   a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/n4GaN2DuI9Q" target="_blank")
                     span ver video
                     i.fas.fa-file-download
@@ -549,29 +559,29 @@
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                     img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img48.svg' alt='AvatarTop')
-                    p.ms-5.mb-0 Confianza
+                    p.ms-5.mb-0 <b>Confianza</b>
 
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                     img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img49.svg' alt='AvatarTop')
-                    p.ms-5.mb-0 Integralidad
+                    p.ms-5.mb-0 <b>Integralidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                     img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img50.svg' alt='AvatarTop')
-                    p.ms-5.mb-0 Puntualidad
+                    p.ms-5.mb-0 <b>Puntualidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                     img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img51.svg' alt='AvatarTop')
-                    p.ms-5.mb-0 Trazabilidad
+                    p.ms-5.mb-0 <b>Trazabilidad</b>
 
           .col-lg-5.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img44.png", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/img036.svg", data-aos="zoom-in")
 
     .row.justify-content-center.mb-5
       .col-12.col-md-12.col-lg-10
@@ -587,8 +597,8 @@
             b Figura 1. 
             span Ciclo básico de PQR
         figure.mb-4
-          img(src='@/assets/curso/temas/tema1/img45.png', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema1/img46.png', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/temas/tema1/img52.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/temas/tema1/img53.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
@@ -605,7 +615,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img47.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los PQR se deben solucionar o responder siguiendo los principios, términos y métodos dispuestos en el Código Contencioso Administrativo y su incumplimiento dará sitio a la imposición de las sanciones previstas en el mismo.
+            p.mb-0 Los PQR se deben solucionar o responder siguiendo los principios, <b>términos y métodos dispuestos en el Código Contencioso Administrativo</b> y su incumplimiento dará sitio a la imposición de las sanciones previstas en el mismo.
 
 </template>
 

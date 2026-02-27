@@ -18,7 +18,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La norma ISO 9001: 2015 es la norma de Sistemas de Gestión de la Calidad (SGC) más reconocida e implantada en el mundo. Especifica los requisitos para un SGC que las organizaciones pueden utilizar para desarrollar sus propios programas.
+            p.mb-0 <b>La norma ISO 9001</b>: 2015 es la norma de Sistemas de Gestión de la Calidad (SGC) más reconocida e implantada en el mundo. Especifica los requisitos para un SGC que las organizaciones pueden utilizar para desarrollar sus propios programas.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -54,25 +54,26 @@
             b Figura 2. 
             span Sistema de calidad
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img02.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/temas/tema2/img19.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
           img(src='@/assets/curso/temas/tema2/img03.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
           | SENA 2026
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-1
       .col-md-12.col-lg-10
         p.mb-3 La identificación sistemática y la administración de los diferentes procesos empleados en la compañía, y especialmente las colaboraciones entre tales procesos tienen la posibilidad de referir como “gestión por procesos” en su entorno de aplicación. La regla ISO 9001 estimula la adopción de la administración por procesos como medio de detectar evidentemente y gestionar el Sistema de Administración de la Calidad y las oportunidades para la optimización.
         p.mb-0 La atención de los requerimientos del cliente y de otras necesidades interesadas de manera en el servicio al cliente, son importantes y se usan como retroalimentación para poder evaluar y validar si se han logrado las metas previstas por la dirección de la empresa.
       
-    .row.justify-content-center.align-items-center.mb-1
-      .col-md-12.col-lg-12.bg-color-10.p-4
-        .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
-          .col-lg-8
+    .bg-full-width.bg-fondo-1
+      .p-3.py-5.row.justify-content-center.align-items-center.mb-0
+        .col-md-12.col-lg-12.bg-color-10.p-4.mb-0
+          .row.justify-content-center.align-items-center
+            .col-md-6.col-lg-3.mb-4.mb-lg-0
+              figure
+                img.ps-lg-5(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
+            .col-12.col-md-12.col-lg-8.px-lg-5
               h4.mb-3 ¡Atención!
               ul.lista-ul
                 li 
@@ -85,12 +86,12 @@
                   i.fas.fa-check.bg-color-5
                   | No pretende obligar ni “recetar” metodologías (los cómo), sino afirmar que el hincapié se dé en el cumplimiento de los requisitos exigidos de forma obligatoria referenciados en la norma.
 
-    separador
-    
-    .row.justify-content-center.align-items-center
-      .col-md-12.col-lg-12
-        #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1 Características
+      separador
+      
+      .row.justify-content-center.align-items-center
+        .col-md-12.col-lg-12
+          #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+            h2 2.1 Características
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -139,7 +140,7 @@
                 p.ms-5.mb-0 Incremento de la comunicación interna, satisfacción de los trabajadores.
 
       .col-md-12.col-lg-10
-        p.mb-3 La norma ISO 9001 mira el pro y el contra en el personal la esencia de la organización, y promueve su formación, colaboración y liderazgo en todos los niveles, además, los motiva y permite que sus capacidades sean utilizadas para el beneficio de la organización.
+        p.mb-3 <b>La norma ISO 9001</b> mira el pro y el contra en el personal la esencia de la organización, y promueve su formación, colaboración y liderazgo en todos los niveles, además, los motiva y permite que sus capacidades sean utilizadas para el beneficio de la organización.
         p.mb-0 Los pasos a seguir para que la empresa sea certificada con ISO 9001 son:
 
     //- figura
@@ -151,8 +152,8 @@
             b Figura 3. 
             span Pasos a seguir para que la empresa sea certificada con ISO 9001
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img12.png', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema2/img13.png', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/temas/tema2/img20.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/temas/tema2/img21.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
@@ -171,7 +172,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10.mb-4
         .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-5.mb-3.mb-lg-0
+          .col-md-6.col-lg-5.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/img14.png", data-aos="zoom-in")
           .col-md-12.col-lg-7
@@ -182,9 +183,9 @@
       .col-12.col-md-12.col-lg-10
         p.mb-0 Los Acuerdos de Niveles de Servicio como generadores de valor se definen así:
     
-    .bg-full-width.bg-fondo-5.tarjeta.mb-5
-      .p-5
-        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+    .bg-fondo-5.tarjeta.mb-5
+      .p-4.p-lg-5
+        SlyderA(tipo="b").bg-color-white.p-2.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
               p.mb-0 Es un protocolo plasmado normalmente en un documento por el que una compañía que presta un servicio a otra se compromete a prestar el mismo bajo unas determinadas condiciones y con unas prestaciones mínimas o que se realiza entre los empleados de una empresa.
@@ -221,7 +222,6 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 2. 
-            span PQR
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA 2026
