@@ -51,7 +51,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10.mb-5
-        p.mb-0 En una organización también se debe contar con el mínimo número posible de indicadores que garanticen contar con información constante, real y precisa sobre aspectos tales como:
+        p.mb-0 En una organización también se debe contar con el <b>mínimo número posible de indicadores</b> que garanticen contar con información constante, real y precisa sobre aspectos tales como:
 
       .col-md-12.col-lg-10.mb-4
         .row.align-items-stretch.justify-content-center
@@ -59,45 +59,45 @@
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Efectividad.
+                p.ms-5.mb-0 <b>Efectividad.</b>
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Eficiencia.
+                p.ms-5.mb-0 <b>Eficiencia.</b>
                 
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Eficacia.
+                p.ms-5.mb-0 <b>Eficacia.</b>
                 
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img08.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Productividad.
+                p.ms-5.mb-0 <b>Productividad.</b>
           
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img09.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Calidad.
+                p.ms-5.mb-0 <b>Calidad.</b>
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Ejecución presupuestal.
+                p.ms-5.mb-0 <b>Ejecución presupuestal.</b>
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Incidencia de la gestión.
+                p.ms-5.mb-0 <b>Incidencia de la gestión.</b>
 
-    .bg-full-width.bg-fondo-2
+    .bg-full-width.bg-fondo-tema-2
       .row.justify-content-center.mb-4
         .col-md-12.col-lg-10
           p.mb-3 Todo lo anterior constituye el conjunto de signos vitales de la organización (Mora, 2004).
@@ -128,29 +128,29 @@
       .row.justify-content-center.mb-5
         .col-md-12.col-lg-10
           .bg-fondo-5.tarjeta
-            .p-5
+            .p-4.p-lg-5
               SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-                .row.justify-content-center.align-items-center.p-4
+                .row.justify-content-center.align-items-center.p-lg-4.p-2
                   .col-lg-12
                     h4 Verificable
                     p.mb-0 El indicador también debe recogerse y calcularse de forma que permita verificar la información y los datos. El indicador debe basarse en sistemas sólidos de recogida de datos, y los gestores deben poder verificar la exactitud de la información y la coherencia de los métodos utilizados.
               
-                .row.justify-content-center.align-items-center.p-4
+                .row.justify-content-center.align-items-center.p-lg-4.p-2
                   .col-lg-12
                     h4 Rentable
                     p.mb-0 Otro criterio importante es equilibrar el costo de la recogida de información con su utilidad. Siempre que sea posible, un indicador debe basarse en información ya disponible y vinculada a la actividad de recogida de datos existente.
 
-                .row.justify-content-center.align-items-center.p-4
+                .row.justify-content-center.align-items-center.p-lg-4.p-2
                   .col-lg-12
                     h4 Permitir la innovación
                     p.mb-0 La definición de un indicador no debe disuadir a las organizaciones de desarrollar procesos innovadores o idear métodos, sistemas o procedimientos alternativos para mejorar la prestación de servicios. Lo ideal es que los indicadores de rendimiento se construyan para que se produzcan tales innovaciones.
 
-                .row.justify-content-center.align-items-center.p-4
+                .row.justify-content-center.align-items-center.p-lg-4.p-2
                   .col-lg-12
                     h4 Validez estadística
                     p.mb-0 Los indicadores deben ser estadísticamente válidos.
 
-                .row.justify-content-center.align-items-center.p-4
+                .row.justify-content-center.align-items-center.p-lg-4.p-2
                   .col-lg-12
                     h4 Oportunos
                     p.mb-0 Debe basarse en datos que estén disponibles en un plazo razonable. Esta escala temporal dependerá del uso que se haga de los datos. Algunos datos se recogen semanalmente o incluso a diario, ya que son necesarios en la gestión operativa de los servicios, mientras que otros están disponibles una vez al año para fines más estratégicos y a largo plazo.
@@ -197,28 +197,28 @@
                 th(colspan="2") Indicadores de gestión para medir el nivel de servicio
             tbody
               tr
-                td Órdenes completas
+                td <b>Órdenes completas</b>
                 td Órdenes entregadas completas / Órdenes totales surtidas.
               tr
-                td Órdenes a tiempo
+                td <b>Órdenes a tiempo</b>
                 td Órdenes entregadas a tiempo / Órdenes totales despachadas.
               tr
-                td Órdenes en cantidad
+                td <b>Órdenes en cantidad</b>
                 td Unidades recibidas orden / Unidades entregadas orden.
               tr
-                td Precisión facturación
+                td <b>Precisión facturación</b>
                 td Facturas aceptadas / Facturas generadas.
               tr
-                td Ciclo de orden
+                td <b>Ciclo de orden</b>
                 td Sumatoria de fechas (recepción – fechas de solicitud).
               tr
-                td Ordenes con devolución
+                td <b>Ordenes con devolución</b>
                 td Órdenes devueltas / Órdenes totales generadas.
               tr
-                td Quejas de clientes
+                td <b>Quejas de clientes</b>
                 td Órdenes con quejas / Órdenes totales generadas.
               tr
-                td Resolución de quejas de clientes
+                td <b>Resolución de quejas de clientes</b>
                 td Quejas con resolución a tiempo / Quejas recibidas.
 
     separador
@@ -228,7 +228,7 @@
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 3.1 Interpretación de los KPI
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
           .col-md-8.col-lg-4.mb-3.mb-lg-0
@@ -238,7 +238,6 @@
             p.mb-3(data-aos="fade-right") Interpretar un indicador de gestión es indicar lo que está ocurriendo en un proceso específico o actividad, para ello se procede a la toma de decisiones que son, generalmente, opciones de mejora para corregir cuando su resultado se desvía de lo esperado y mejorar los resultados en el menor tiempo posible.
             p.mb-0(data-aos="fade-right") En la cultura de la medición del desempeño de las organizaciones y cuando se interpretan o se leen los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica, que son los niveles de tolerancia de los indicadores y que nos envían señales de alerta.
 
-    separador
     
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
@@ -456,43 +455,43 @@
     .container
       .row.justify-content-center.align-items-center.mb-4()
         .col-md-12.col-lg-10
-          .row.justify-content-center.align-items-center.bg-color-13
+          .row.justify-content-center.align-items-center.bg-color-13.p-4
             .col-lg-9.mb-2.mb-lg-0.p-2.order-md-2.order-lg-1
               ol.lista-ol--cuadro.mb-0.ps-4
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span A
-                  | Nombre: el nombre que se va a dar al indicador dependiendo la actividad a medir.
+                  | <b>Nombre</b>: el nombre que se va a dar al indicador dependiendo la actividad a medir.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span B
-                  | Objetivo del indicador: con qué objetivo se plantea el indicador.
+                  | <b>Objetivo del indicador</b>: con qué objetivo se plantea el indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span C
-                  | Forma de cálculo del indicador: la fórmula para calcular los resultados del indicador.
+                  | <b>Forma de cálculo del indicador</b>: la fórmula para calcular los resultados del indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span D
-                  | Periodicidad: el periodo de tiempo que se toma para medir el indicador.
+                  | <b>Periodicidad</b>: el periodo de tiempo que se toma para medir el indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span E
-                  | Responsable: todo indicador debe tener un responsable.
+                  | <b>Responsable</b>: todo indicador debe tener un responsable.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span F
-                  | Área que recibe el indicador.
+                  | <b>Área que recibe el indicador</b>
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span G
-                  | Impacto: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
+                  | <b>Impacto</b>: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
 
             .col-md-6.col-lg-3.mb-2.mb-lg-0.order-md-1.mt-md-4.order-lg-2
               figure
@@ -605,10 +604,10 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
-        .row.justify-content-center.align-items-center.bg-color-10
-          .col-auto.col-lg-4.mb-3.mb-lg-0
+        .row.justify-content-center.align-items-center.bg-color-10.p-4
+          .col-auto.col-lg-4.mb-4.mb-lg-0
             figure
-              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img27.svg", data-aos="zoom-in", style="max-width: 75%;").mx-auto
+              img(src="@/assets/curso/temas/tema3/img27.svg", data-aos="zoom-in", style="max-width: 75%;").mx-auto
           .col-lg-7
             h4.mb-3 ¿Qué incluir en un informe de KPI?
             p.mb-0 Aunque el informe debe redactarse para responder a las necesidades de atención al cliente de forma que refleje adecuadamente sus objetivos o proyectos, hay algunos datos clave que puede ser útil incluir.
@@ -618,7 +617,7 @@
         TabsA.color-acento-botones.tabs-a--h-auto
           .tarjeta.color-acento-botones--borde.p-4.h-auto(titulo="Meta")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img28.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -627,7 +626,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="Métrica")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img29.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -635,7 +634,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Justificación")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img30.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -643,7 +642,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Frecuencia")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img31.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -651,7 +650,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Fuente")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img32.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -659,7 +658,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Material visual")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img33.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -667,7 +666,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Comentarios")
             .row.justify-content-center.align-items-center
-              .col-md-6.col-lg-3.mb-3.mb-lg-0.order-lg-1
+              .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
                   img(src="@/assets/curso/temas/tema3/img34.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
@@ -680,7 +679,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

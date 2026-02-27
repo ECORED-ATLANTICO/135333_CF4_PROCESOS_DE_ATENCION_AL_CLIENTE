@@ -116,6 +116,9 @@ figcaption
 .bg-color-5
   background-color: #D9E8F9
 
+.bg-color-6
+  background-color: #F6F1E5
+
 .bg-fondo-2
   background-image: url(../assets/curso/temas/tema1/fondo2.png)
   background-position: 0
@@ -147,7 +150,7 @@ figcaption
   background-position: bottom
   background-size: contain
 
-.bg-fondo-2
+.bg-fondo-tema-2
   background-image: url("../assets/curso/temas/bg/bg1.png") !important
   background-position: top
   background-size: contain
@@ -792,3 +795,80 @@ a, button, div
 
 .titulo-sexto.color-acento-contenido
   border-left-color: #A5B9F6 !important
+
+.bg_grad-08
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 48%
+    height: 97%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    border-radius: 10px
+    @media screen and ( max-width: 420px  )
+      height: 91%
+      width: 100%
+      left: 0
+      top: 0
+      position: relative
+
+.hg_1
+  @media screen and ( max-width: 420px  )
+    height: 332px
+
+.infografia-autores
+  position: relative
+  &__img
+    img
+      position: absolute
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      &:hover
+        opacity: 1
+
+.posit
+  &_17
+    position: absolute
+    top: -17px
+    left: 0
+    width: 162px
+    @media screen and ( max-width: 420px  )
+      top: 0
+      left: -14px
+      width: 111px
+  &_18
+    top: 5px
+    left: 46px
+    width: 574px
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+  &_19
+    top: 96px
+    left: 46px
+    width: 574px
+    @media screen and ( max-width: 420px  )
+      top: 79px
+      left: 19px
+  &_20
+    top: 188px
+    left: 46px
+    width: 574px
+    @media screen and ( max-width: 420px  )
+      top: 142px
+      left: 19px
+
+.manito
+  &::after
+    top: 55px
+    left: -277px
+  @media screen and ( max-width: 420px )
+    &::after
+      top: 55px
+      left: -149px
