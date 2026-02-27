@@ -54,25 +54,26 @@
             b Figura 2. 
             span Sistema de calidad
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img02.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/temas/tema2/img19.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
           img(src='@/assets/curso/temas/tema2/img03.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
           | SENA 2026
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-1
       .col-md-12.col-lg-10
         p.mb-3 La identificación sistemática y la administración de los diferentes procesos empleados en la compañía, y especialmente las colaboraciones entre tales procesos tienen la posibilidad de referir como “gestión por procesos” en su entorno de aplicación. La regla ISO 9001 estimula la adopción de la administración por procesos como medio de detectar evidentemente y gestionar el Sistema de Administración de la Calidad y las oportunidades para la optimización.
         p.mb-0 La atención de los requerimientos del cliente y de otras necesidades interesadas de manera en el servicio al cliente, son importantes y se usan como retroalimentación para poder evaluar y validar si se han logrado las metas previstas por la dirección de la empresa.
       
-    .row.justify-content-center.align-items-center.mb-1
-      .col-md-12.col-lg-12.bg-color-10.p-4
-        .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
-          .col-lg-8
+    .bg-full-width.bg-fondo-1
+      .p-3.py-5.row.justify-content-center.align-items-center.mb-0
+        .col-md-12.col-lg-12.bg-color-10.p-4.mb-0
+          .row.justify-content-center.align-items-center
+            .col-md-6.col-lg-3.mb-3.mb-lg-0
+              figure
+                img.ps-5(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
+            .col-12.col-md-12.col-lg-8.px-5
               h4.mb-3 ¡Atención!
               ul.lista-ul
                 li 
@@ -85,12 +86,12 @@
                   i.fas.fa-check.bg-color-5
                   | No pretende obligar ni “recetar” metodologías (los cómo), sino afirmar que el hincapié se dé en el cumplimiento de los requisitos exigidos de forma obligatoria referenciados en la norma.
 
-    separador
-    
-    .row.justify-content-center.align-items-center
-      .col-md-12.col-lg-12
-        #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1 Características
+      separador
+      
+      .row.justify-content-center.align-items-center
+        .col-md-12.col-lg-12
+          #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+            h2 2.1 Características
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -221,7 +222,6 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 2. 
-            span PQR
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA 2026

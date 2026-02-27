@@ -143,14 +143,14 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  // background-image: url("../assets/curso/temas/bg/bg1.png") !important
+  background-image: url("../assets/curso/temas/bg/bg1.png") !important
   background-position: bottom
   background-size: contain
 
 .bg-fondo-2
-  // background-image: url("../assets/curso/temas/bg/bg1.png") !important
-  background-position: bottom
-  background-size: cover
+  background-image: url("../assets/curso/temas/bg/bg1.png") !important
+  background-position: top
+  background-size: contain
 
 .bg-fondo-1-2
   // background-image: url("../assets/curso/temas/bg/bg2.png") !important
@@ -224,40 +224,36 @@ figcaption
       bottom: -20px
 
 // Tabs A
-.tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #A5B9F6
-  color: #000 !important
-.tabs-a__tab
-  &.color-acento-botones
-    background-color: #DBE3FB
+.tabs-a.color-acento-botones
+  .tabs-a__tab
+    background-color: #DBE3FB !important
+    &:hover, &:active, &:focus
+      background-color: #A5B9F6
+  .tabs-a__tab__selected
+    background-color: #A5B9F6 !important
+    color: #000 !important
+    &:before
+      background-color: #A5B9F6
+
 .tarjeta.color-acento-botones--borde
-  background-color: #DBE3FB
-  border: solid 4px #DBE3FB
-
-.tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #A5B9F6
-
-.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
-  background-color: #A5B9F6
+  background-color: #F6F8FE !important
+  border: solid 4px #DBE3FB !important
 
 // Tabs A color secundario
-.tabs-a.color-secundario .tabs-a__tab__selected
-  background-color: #B7AF2D
-  color: #000 !important
-
-.tabs-a__tab
-  &.color-secundario
+.tabs-a.color-secundario
+  .tabs-a__tab
     background-color: #EAE7AD !important
+    &:hover, &:active, &:focus
+      background-color: #B7AF2D
+  .tabs-a__tab__selected
+    background-color: #B7AF2D !important
+    color: #000 !important
+    &:before
+      background-color: #B7AF2D
 
 .tarjeta.color-secundario--borde
-  background-color: #EAE7AD
-  border: solid 4px #EAE7AD
-
-.tabs-a.color-secundario .tabs-a__tab__selected:before
-  background-color: #B7AF2D
-
-.tabs-a.color-secundario .tabs-a__tab:hover, .tabs-a.color-secundario .tabs-a__tab:active, .tabs-a.color-secundario .tabs-a__tab:focus
-  background-color: #B7AF2D
+  background-color: #FAF9EA !important
+  border: solid 4px #FAF9EA !important
 
 .tabs-a__content-item
   display: flex
@@ -275,7 +271,7 @@ figcaption
   .tabs-a__tab
     background-color: #EAE7AD
   .tabs-a__tab__selected
-    background-color: #B7AF2D
+    background-color: #B7AF2D !important
     &:before
       background-color: #B7AF2D
   .tabs-a__content-item
@@ -517,12 +513,12 @@ a, button, div
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
-  background-color: #CDD5F2
-  border: #CDD5F2
+  background-color: #CBC232
+  border: #CBC232
 .slyder-a__bullets__item--active
-  background-color: #6F88DA
+  background-color: #CBC232
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
-  background-color: #FFD256
+  background-color: #FF7E5D
 .slyder-a__bullets__item
   @media screen and ( max-width: $bp-max-xs )
     margin: 0 5px
@@ -615,7 +611,7 @@ a, button, div
     background-color: #FFE7E4
 
   &_6
-    background-color: #FFF6E6
+    background-color: #FDFCF9
     padding: 5%
 
     @media screen and (max-width: $bp-max-sm)
@@ -645,7 +641,7 @@ a, button, div
     margin-bottom: 13px
   &_4
     margin-top: -280px
-    margin-left: 39px
+    margin-left: 56px
     @media screen and ( max-width: 420px )
       margin-top: 0
     @media screen and ( max-width: $bp-max-md )
@@ -740,6 +736,20 @@ a, button, div
 .tabs-b.color-acento-contenido .tabs-b__tab--active
   border-bottom-color: #A5B9F6 !important
   background-color: #FDFCF9 !important
+  border-top-color: #CBC232 !important
+
+.tabs-b__tab
+  border-bottom-color: #F6F8FE !important
+  border-right-color: #A5B9F6 !important
+  background-color: #F6F8FE !important
+
+  @media (max-width: $bp-max-md)
+    border-top: 2px solid #F6F8FE !important
+    &:first-child
+      border-left: none !important
+    &:nth-child(4)
+      border-left: 2px solid #A5B9F6 !important
+      border-right: none !important
 
 // pasos
 .pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
@@ -754,3 +764,31 @@ a, button, div
   border-left-color: #A5B9F6 !important
 .pasos-a__linea div
   border-radius: 0px !important
+
+.custom-list
+  &__header
+    background-color: #94A6DD
+  &__item
+    &:nth-child(2)
+      background-color: #A5B9F6
+    &:nth-child(3)
+      background-color: #DBE3FB
+    &:nth-child(4)
+      background-color: #F6F8FE
+    &:nth-child(5)
+      background-color: #F6F1E5
+
+.lista-ul
+  li
+    display: flex !important
+    align-items: flex-start
+    i:first-child
+      margin-top: 3px
+
+.lista-ol--cuadro
+  li
+    display: flex !important
+    align-items: flex-start
+
+.titulo-sexto.color-acento-contenido
+  border-left-color: #A5B9F6 !important

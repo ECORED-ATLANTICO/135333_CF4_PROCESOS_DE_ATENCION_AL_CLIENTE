@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los indicadores de gestión son herramientas que permiten medir el desempeño de los procesos y actividades de una organización. Son fundamentales para evaluar el cumplimiento de los objetivos y metas establecidos, así como para identificar áreas de mejora.
+            p.mb-0 Los indicadores de gestión o Key Performance Indicators (KPI por sus siglas en inglés), no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
 
     .container
       .row.justify-content-center.align-items-center.mb-4
@@ -57,102 +57,103 @@
         .row.align-items-stretch.justify-content-center
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Efectividad.
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Eficiencia.
                 
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Eficacia.
                 
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img08.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Productividad.
           
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img09.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Calidad.
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Ejecución presupuestal.
          
           .col-md-4.col-lg-3
             .tarjeta-container.mb-4.custom-mh
-              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Incidencia de la gestión.
 
-    .row.justify-content-center.mb-4
-      .col-md-12.col-lg-10
-        p.mb-3 Todo lo anterior constituye el conjunto de signos vitales de la organización (Mora, 2004).
-        p.mb-0 Las siguientes son las características generales de los indicadores que pueden ayudar a garantizar sean útiles y eficaces: 
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-4
+        .col-md-12.col-lg-10
+          p.mb-3 Todo lo anterior constituye el conjunto de signos vitales de la organización (Mora, 2004).
+          p.mb-0 Las siguientes son las características generales de los indicadores que pueden ayudar a garantizar sean útiles y eficaces: 
 
-    .row.justify-content-center.mb-5
-      .col-md-12.col-lg-10
-        TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Relevante")
-            .row.justify-content-center.align-items-center
-              .col-lg-12.order-lg-1
-                p.mb-0 Relacionar los indicadores de rendimiento con las metas y objetivos la organización. Lo ideal es que sean relevantes para las personas que proporcionan los datos y para los usuarios, pero puede que no sea posible que un solo indicador sea relevante para todos los usuarios, esto debido a las diferencias de perspectivas e intereses.
-          
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Definición clara")
-            .row.justify-content-center.align-items-center
-              .col-lg-12.order-lg-1
-                p.mb-3 Un indicador de rendimiento debe tener una definición clara e inteligible para garantizar una recopilación coherente y una comparación justa.    
-                p.mb-0 Las descripciones vagas pueden dar lugar a interpretaciones erróneas y a confusión. Las definiciones demasiado estrictas o demasiado amplias también pueden crear problemas.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Fácil de entender y utilizar")
-            .row.justify-content-center.align-items-center
-              .col-lg-12.order-lg-1
-                p.mb-0 Es importante que los indicadores se describan en términos que los usuarios de la información puedan entender, incluso si la propia definición tiene que utilizar terminología técnica. Los indicadores dirigidos al público deben evitar la jerga de gestión o los conceptos abstractos.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Comparable")
-            .row.justify-content-center.align-items-center
-              .col-lg-12.order-lg-1
-                p.mb-0 Lo ideal es que los indicadores sean comparables de forma coherente tanto entre organizaciones como a lo largo del tiempo. Un aspecto esencial de la comparabilidad de los indicadores de rendimiento es la inclusión del contexto en el que se realiza la comparación. Las circunstancias externas e internas pueden diferir hasta tal punto que la comparación no sea válida.
-         
-    .row.justify-content-center.mb-5
-      .col-md-12.col-lg-10
-        .bg-fondo-5.tarjeta
-          .p-5
-            SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-              .row.justify-content-center.align-items-center.p-4
-                .col-lg-12
-                  h4 Verificable
-                  p.mb-0 El indicador también debe recogerse y calcularse de forma que permita verificar la información y los datos. El indicador debe basarse en sistemas sólidos de recogida de datos, y los gestores deben poder verificar la exactitud de la información y la coherencia de los métodos utilizados.
+      .row.justify-content-center.mb-5
+        .col-md-12.col-lg-10
+          TabsA.color-acento-botones
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Relevante")
+              .row.justify-content-center.align-items-center
+                .col-lg-12.order-lg-1
+                  p.mb-0 Relacionar los indicadores de rendimiento con las metas y objetivos la organización. Lo ideal es que sean relevantes para las personas que proporcionan los datos y para los usuarios, pero puede que no sea posible que un solo indicador sea relevante para todos los usuarios, esto debido a las diferencias de perspectivas e intereses.
             
-              .row.justify-content-center.align-items-center.p-4
-                .col-lg-12
-                  h4 Rentable
-                  p.mb-0 Otro criterio importante es equilibrar el costo de la recogida de información con su utilidad. Siempre que sea posible, un indicador debe basarse en información ya disponible y vinculada a la actividad de recogida de datos existente.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Definición clara")
+              .row.justify-content-center.align-items-center
+                .col-lg-12.order-lg-1
+                  p.mb-3 Un indicador de rendimiento debe tener una definición clara e inteligible para garantizar una recopilación coherente y una comparación justa.    
+                  p.mb-0 Las descripciones vagas pueden dar lugar a interpretaciones erróneas y a confusión. Las definiciones demasiado estrictas o demasiado amplias también pueden crear problemas.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Fácil de entender y utilizar")
+              .row.justify-content-center.align-items-center
+                .col-lg-12.order-lg-1
+                  p.mb-0 Es importante que los indicadores se describan en términos que los usuarios de la información puedan entender, incluso si la propia definición tiene que utilizar terminología técnica. Los indicadores dirigidos al público deben evitar la jerga de gestión o los conceptos abstractos.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Comparable")
+              .row.justify-content-center.align-items-center
+                .col-lg-12.order-lg-1
+                  p.mb-0 Lo ideal es que los indicadores sean comparables de forma coherente tanto entre organizaciones como a lo largo del tiempo. Un aspecto esencial de la comparabilidad de los indicadores de rendimiento es la inclusión del contexto en el que se realiza la comparación. Las circunstancias externas e internas pueden diferir hasta tal punto que la comparación no sea válida.
+          
+      .row.justify-content-center.mb-5
+        .col-md-12.col-lg-10
+          .bg-fondo-5.tarjeta
+            .p-5
+              SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+                .row.justify-content-center.align-items-center.p-4
+                  .col-lg-12
+                    h4 Verificable
+                    p.mb-0 El indicador también debe recogerse y calcularse de forma que permita verificar la información y los datos. El indicador debe basarse en sistemas sólidos de recogida de datos, y los gestores deben poder verificar la exactitud de la información y la coherencia de los métodos utilizados.
+              
+                .row.justify-content-center.align-items-center.p-4
+                  .col-lg-12
+                    h4 Rentable
+                    p.mb-0 Otro criterio importante es equilibrar el costo de la recogida de información con su utilidad. Siempre que sea posible, un indicador debe basarse en información ya disponible y vinculada a la actividad de recogida de datos existente.
 
-              .row.justify-content-center.align-items-center.p-4
-                .col-lg-12
-                  h4 Permitir la innovación
-                  p.mb-0 La definición de un indicador no debe disuadir a las organizaciones de desarrollar procesos innovadores o idear métodos, sistemas o procedimientos alternativos para mejorar la prestación de servicios. Lo ideal es que los indicadores de rendimiento se construyan para que se produzcan tales innovaciones.
+                .row.justify-content-center.align-items-center.p-4
+                  .col-lg-12
+                    h4 Permitir la innovación
+                    p.mb-0 La definición de un indicador no debe disuadir a las organizaciones de desarrollar procesos innovadores o idear métodos, sistemas o procedimientos alternativos para mejorar la prestación de servicios. Lo ideal es que los indicadores de rendimiento se construyan para que se produzcan tales innovaciones.
 
-              .row.justify-content-center.align-items-center.p-4
-                .col-lg-12
-                  h4 Validez estadística
-                  p.mb-0 Los indicadores deben ser estadísticamente válidos.
+                .row.justify-content-center.align-items-center.p-4
+                  .col-lg-12
+                    h4 Validez estadística
+                    p.mb-0 Los indicadores deben ser estadísticamente válidos.
 
-              .row.justify-content-center.align-items-center.p-4
-                .col-lg-12
-                  h4 Oportunos
-                  p.mb-0 Debe basarse en datos que estén disponibles en un plazo razonable. Esta escala temporal dependerá del uso que se haga de los datos. Algunos datos se recogen semanalmente o incluso a diario, ya que son necesarios en la gestión operativa de los servicios, mientras que otros están disponibles una vez al año para fines más estratégicos y a largo plazo.
+                .row.justify-content-center.align-items-center.p-4
+                  .col-lg-12
+                    h4 Oportunos
+                    p.mb-0 Debe basarse en datos que estén disponibles en un plazo razonable. Esta escala temporal dependerá del uso que se haga de los datos. Algunos datos se recogen semanalmente o incluso a diario, ya que son necesarios en la gestión operativa de los servicios, mientras que otros están disponibles una vez al año para fines más estratégicos y a largo plazo.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-0
@@ -188,7 +189,6 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 3. 
-            span Indicadores de gestión para medir el nivel de servicio
         .tabla-a.color-acento-contenido
           table
             caption Fuente: SENA 2026
@@ -226,15 +226,15 @@
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.1 Características
+          h2 3.1 Interpretación de los KPI
 
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
-          .col-md-8.col-lg-3.mb-3.mb-lg-0
+          .col-md-8.col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img01.png", data-aos="zoom-in")
-          .col-lg-9
+              img(src="@/assets/curso/temas/tema3/img13.png", data-aos="zoom-in")
+          .col-lg-8
             p.mb-3(data-aos="fade-right") Interpretar un indicador de gestión es indicar lo que está ocurriendo en un proceso específico o actividad, para ello se procede a la toma de decisiones que son, generalmente, opciones de mejora para corregir cuando su resultado se desvía de lo esperado y mejorar los resultados en el menor tiempo posible.
             p.mb-0(data-aos="fade-right") En la cultura de la medición del desempeño de las organizaciones y cuando se interpretan o se leen los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica, que son los niveles de tolerancia de los indicadores y que nos envían señales de alerta.
 
@@ -242,8 +242,11 @@
     
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
-        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.2 Interpretación de indicadores de gestión (KPI)
+        //- Subtitulo
+        .align-items-center.justify-content-star.mb-2
+          .div(data-aos="fade-left")
+            h3.subtitle.position-relative Interpretación de indicadores de gestión (KPI)
+              img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
@@ -280,8 +283,8 @@
     
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
-        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.3 Aplicabilidad de los KPI
+        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 3.2 Aplicabilidad de los KPI
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10.mb-4
@@ -362,7 +365,7 @@
         div.bg-color-3.p-3.mb-3
           h4.m-0 ¿Cuáles son los KPI de servicio al cliente más efectivos?
           
-        PasosA.color-acento-contenido.mb-5.justify-content-right(tipo="n")
+        PasosA.color-acento-contenido.mb-5.justify-content-right(tipo="l")
           div(data-aos="fade-left").text-start
             h3 Satisfacción general
             p Ayudará a comprender la satisfacción  de los clientes en todos los aspectos  de la compañía.
@@ -454,8 +457,8 @@
       .row.justify-content-center.align-items-center.mb-4()
         .col-md-12.col-lg-10
           .row.justify-content-center.align-items-center.bg-color-13
-            .col-lg-10.mb-2.mb-lg-0.p-5.order-md-2.order-lg-1
-              ol.lista-ol--cuadro.mb-0
+            .col-lg-9.mb-2.mb-lg-0.p-2.order-md-2.order-lg-1
+              ol.lista-ol--cuadro.mb-0.ps-4
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span A
@@ -491,7 +494,7 @@
                     span G
                   | Impacto: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
 
-            .col-md-6.col-lg-2.mb-2.mb-lg-0.order-md-1.mt-md-4.order-lg-2
+            .col-md-6.col-lg-3.mb-2.mb-lg-0.order-md-1.mt-md-4.order-lg-2
               figure
                 img(src="@/assets/curso/temas/tema3/img21.svg", data-aos="zoom-in")
 
@@ -499,8 +502,8 @@
 
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
-        #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.4 Reporte de los KPI
+        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 3.3 Reporte de los KPI
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
