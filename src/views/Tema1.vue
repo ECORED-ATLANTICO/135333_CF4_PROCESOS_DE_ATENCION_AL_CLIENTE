@@ -43,122 +43,98 @@
         h3.subtitle.position-relative Pero… ¿Qué son los datos personales?
           img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
 
-    p Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
+    p.mb-4 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
+    
+    .row.mb-4.justify-content-center
+      .col-md-12.col-lg-12
+        .row.align-items-stretch.justify-content-center.justify-content-xl-start
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img04.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Edad.
 
-    .row.justify-content-center.mb-5
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img04.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Edad.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-down")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img05.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Nombre.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img06.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Documento de identidad.
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img05.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Nombre.
 
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img07.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Números telefónicos de contacto.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-down")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img08.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Correo electrónico.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img09.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Número de seguridad social.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Dirección de domicilio.
-      
-      .col-lg-3.mb-3.mb-lg-0
-        .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
-          .tarjeta.bg-color-2
-            .p-3
-              p.mb-0 Entre otros.
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img06.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Documento de identidad.
+        
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img07.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Números telefónicos de contacto.
+          
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img08.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Correo electrónico.
 
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img09.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Número de seguridad social.
+
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Dirección de domicilio.
+        
+          .col-md-6.col-lg-3
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Entre otros.
+    
+    
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
         p.mb-3 Todas las empresas colombianas que manejan clientes y colaboradores deben dar cumplimiento a la normativa de protección de datos y garantizar el derecho constitucional que tienen las personas para el manejo del tratamiento de datos personales.
         p.mb-0 La política que establezcan las organizaciones para la protección de datos debe cobijar la responsabilidad del manejo de la información por parte de:
 
-    .row.justify-content-center.mb-5
+
+    .row.justify-content-center.mb-3
       .col-md-12.col-lg-10
-        .row.justify-content-center
+        .row.align-items-stretch.justify-content-center.justify-content-xl-start.mb-0
+          .col-md-6.col-lg-4
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Colaboradores.
 
-          .col-lg-4.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Colaboradores.
+          .col-md-6.col-lg-4
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Terceros que presten servicios a la empresa.
 
-          .col-lg-4.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Terceros que presten servicios a la empresa.
+          .col-md-6.col-lg-4
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Contratistas.
 
-          .col-lg-4.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Contratistas.
+          .col-md-6.col-lg-4
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Operadores.
 
-          .col-lg-4.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop', style="max-width: 120px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Operadores.
-
-          .col-lg-8.mb-3
-            .tarjeta-avatar-b(data-aos="fade-up")
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop', style="max-width: 100px;")
-              .tarjeta.bg-color-3
-                .p-3
-                  p.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
-
+          .col-md-6.col-lg-8
+            .tarjeta-container.mb-4.custom-mh
+              .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
+                p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -562,44 +538,36 @@
             h4.mb-3 Registrar
             p.mb-0 La última tarea es crear un documento de especificación de requisitos y presentarlo a los clientes para su validación.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-12.col-md-12.col-lg-10
         .row.justify-content-center.align-items-center
           .col-md-12.col-lg-7
-            p.mb-3(data-aos="fade-right") Ya definido con claridad la petición, queja y reclamo, las estrategias de atención al cliente deben enfocarse como mínimo en los siguientes objetivos:
+            p.mb-4(data-aos="fade-right") Ya definido con claridad la petición, queja y reclamo, las estrategias de atención al cliente deben enfocarse como mínimo en los siguientes objetivos:
 
-            .row.justify-content-center
-              .col-lg-6.mb-3
-                .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-                  .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/tema1/img48.svg' alt='AvatarTop', style="max-width: 120px;")
-                  .tarjeta.bg-color-3
-                    .p-3
-                      p.mb-0 Confianza
+            .row.align-items-stretch.justify-content-center.justify-content-xl-start.mb-1
+              .col-md-6.col-lg-6
+                .tarjeta-container.mb-4.custom-mh
+                  .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img48.svg' alt='AvatarTop')
+                    p.ms-5.mb-0 Confianza
 
-              .col-lg-6.mb-3
-                .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-                  .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/tema1/img49.svg' alt='AvatarTop', style="max-width: 120px;")
-                  .tarjeta.bg-color-3
-                    .p-3
-                      p.mb-0 Confianza
-
-              .col-lg-6.mb-3
-                .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-                  .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/tema1/img50.svg' alt='AvatarTop', style="max-width: 120px;")
-                  .tarjeta.bg-color-3
-                    .p-3
-                      p.mb-0 Confianza
-
-              .col-lg-6.mb-3
-                .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
-                  .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/temas/tema1/img51.svg' alt='AvatarTop', style="max-width: 120px;")
-                  .tarjeta.bg-color-3
-                    .p-3
-                      p.mb-0 Confianza
+              .col-md-6.col-lg-6
+                .tarjeta-container.mb-4.custom-mh
+                  .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img49.svg' alt='AvatarTop')
+                    p.ms-5.mb-0 Integralidad
+              
+              .col-md-6.col-lg-6
+                .tarjeta-container.mb-4.custom-mh
+                  .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img50.svg' alt='AvatarTop')
+                    p.ms-5.mb-0 Puntualidad
+              
+              .col-md-6.col-lg-6
+                .tarjeta-container.mb-4.custom-mh
+                  .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img51.svg' alt='AvatarTop')
+                    p.ms-5.mb-0 Trazabilidad
 
           .col-lg-5.mb-3.mb-lg-0
             figure

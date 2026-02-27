@@ -6,14 +6,18 @@ export default {
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      // {
-      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      // },
-      // {
-      //   clases: ['banner-principal-decorativo-2'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      // },
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -79,18 +83,23 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Interpretación de los KPI',
+            titulo: 'Características',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Aplicabilidad de los KPI',
+            titulo: 'Interpretación de indicadores de gestión (KPI)',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Reporte de los KPI',
+            titulo: 'Aplicabilidad de los KPI',
             hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Reporte de los KPI',
+            hash: 't_3_4',
           },
         ],
       },
