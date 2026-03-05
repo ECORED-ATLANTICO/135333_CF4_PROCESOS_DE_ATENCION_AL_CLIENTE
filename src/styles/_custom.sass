@@ -796,79 +796,58 @@ a, button, div
 .titulo-sexto.color-acento-contenido
   border-left-color: #A5B9F6 !important
 
-.bg_grad-08
-  position: relative
-  .row
+.img-infografica__item, .img-infografica-b__item
+  width: 6.5%
+
+.img-infografica__card
+  margin-left: 6rem
+  transform: translateY(-50%)
+  .tarjeta
     position: relative
-  &::before
-    content: ''
-    position: absolute
-    margin: 0
-    top: 0
-    left: 0
-    width: 48%
-    height: 97%
-    background-color: #FFE7E4
-    background-repeat: no-repeat
-    border-radius: 10px
-    @media screen and ( max-width: 420px  )
-      height: 91%
-      width: 100%
-      left: 0
-      top: 0
-      position: relative
-
-.hg_1
-  @media screen and ( max-width: 420px  )
-    height: 332px
-
-.infografia-autores
-  position: relative
-  &__img
-    img
+    &::before
+      content: ''
       position: absolute
-      transition: opacity 0.3s ease-in-out
-      opacity: 0
-      &:hover
-        opacity: 1
+      right: 100%
+      top: 50%
+      transform: translateY(-50%)
+      border: 10px solid transparent
 
-.posit
-  &_17
-    position: absolute
-    top: -17px
-    left: 0
-    width: 162px
-    @media screen and ( max-width: 420px  )
-      top: 0
-      left: -14px
-      width: 111px
-  &_18
-    top: 5px
-    left: 46px
-    width: 574px
-    @media screen and ( max-width: 420px  )
-      top: 17px
-      left: 19px
-  &_19
-    top: 96px
-    left: 46px
-    width: 574px
-    @media screen and ( max-width: 420px  )
-      top: 79px
-      left: 19px
-  &_20
-    top: 188px
-    left: 46px
-    width: 574px
-    @media screen and ( max-width: 420px  )
-      top: 142px
-      left: 19px
+.img-infografica.color-primario
+  .img-infografica__item
+    .img-infografica__item__dot
+      &::before, &::after
+        background-color: #AFAFAF !important
+        transition: background-color 0.3s ease
 
-.manito
-  &::after
-    top: 55px
-    left: -277px
-  @media screen and ( max-width: 420px )
-    &::after
-      top: 55px
-      left: -149px
+  .img-infografica__item:hover, .img-infografica__item--selected
+    &:nth-child(1)
+      .img-infografica__item__dot
+        &::before, &::after
+          background-color: #D8000D !important
+    &:nth-child(2)
+      .img-infografica__item__dot
+        &::before, &::after
+          background-color: #FFB600 !important
+    &:nth-child(3)
+      .img-infografica__item__dot
+        &::before, &::after
+          background-color: #007D2E !important
+
+.bg-rojo
+  background-color: #D8000D
+  &::before
+    border-right-color: #D8000D !important
+  *
+    color: white !important
+.bg-amarillo
+  background-color: #FFB600
+  &::before
+    border-right-color: #FFB600 !important
+  *
+    color: $color-sistema-texto !important
+.bg-verde
+  background-color: #007D2E
+  &::before
+    border-right-color: #007D2E !important
+  *
+    color: white !important
