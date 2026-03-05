@@ -11,7 +11,7 @@
       .col-md-12.col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5(data-aos="fade-up")
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img01.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Según la Constitución Política de Colombia (1991), todas las personas tienen derecho a la intimidad, tanto familiar como personal, al buen nombre y, además, a la protección de datos personales y a conocer, rectificar, actualizar y/o cancelar toda la información y datos personales que se hayan recolectado y se tengan en cualquier base de datos.
@@ -21,7 +21,7 @@
         .row.align-items-center
           .col-12.col-md-6.col-lg-4.mb-3
             figure
-              img(src='@/assets/curso/temas/tema1/img02.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img02.png', alt='Texto que describa la imagen')
           .col-12.col-md-6.col-lg-7
             p A continuación, se verá un poco más de las leyes que protegen el derecho a los datos personales, en su orden cronológico.
 
@@ -44,13 +44,13 @@
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          //- figcaption Video: Leyenda del video
+          figcaption Video: Leyenda del video
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
       .div(data-aos="fade-left")
         h3.subtitle.position-relative Pero… ¿Qué son los datos personales?
-          img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
+          img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
 
     p.mb-4 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
     
@@ -61,50 +61,50 @@
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img04.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Edad.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Edad</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img05.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Nombre.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Nombre</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img06.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Documento de identidad.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Documento de identidad</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img07.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Números telefónicos de contacto.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Números telefónicos de contacto</b>
             
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img08.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Correo electrónico.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Correo electrónico</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img09.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Número de seguridad social.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Número de seguridad social</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Dirección de domicilio.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Dirección de domicilio</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Entre otros.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 <b>Entre otros</b>
       
       
       .row.justify-content-center.mb-4
@@ -119,32 +119,32 @@
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Colaboradores.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Colaboradores
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Terceros que presten servicios a la empresa.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Terceros que presten servicios a la empresa
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Contratistas.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Contratistas
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Operadores.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Operadores
 
             .col-md-6.col-lg-8
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
+                  p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -155,7 +155,7 @@
         .align-items-center.justify-content-star
           .div(data-aos="fade-left")
             h3.subtitle.position-relative Categoría de datos
-              img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
+              img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
 
     .bg-fondo-5.tarjeta.mb-5
       .p-4.p-lg-5
@@ -167,7 +167,7 @@
               p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular como pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos son datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/img17.png', alt='Imagen de acompañamiento')
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -176,20 +176,20 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check.color-5
-                  | El titular entrega autorización explícita en el tratamiento de los datos.
+                  div El titular entrega autorización explícita en el tratamiento de los datos.
                 li 
                   i.fas.fa-check.color-5
-                  | Cuando los datos son requeridos en procesos judiciales o para reconocimientos.
+                  div Cuando los datos son requeridos en procesos judiciales o para reconocimientos.
                 li 
                   i.fas.fa-check.color-5
-                  | Los datos tengan una finalidad estadística, científica o histórica.
+                  div Los datos tengan una finalidad estadística, científica o histórica.
                 li 
                   i.fas.fa-check.color-5
-                  | Los datos son necesarios para salvaguardar el interés del titular y este se encuentra incapacitado, sea física o jurídicamente, para esto se requiere autorización del representante legal.
+                  div Los datos son necesarios para salvaguardar el interés del titular y este se encuentra incapacitado, sea física o jurídicamente, para esto se requiere autorización del representante legal.
             
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema1/img18.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img18.png", alt="Imagen")
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -199,7 +199,7 @@
               
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema1/img19.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img19.png", alt="Imagen")
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -208,14 +208,14 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check.color-5
-                  | Cuando los datos respondan al interés superior de los niños, niñas y adolescentes, en un ámbito de respeto (entiéndase interés superior como: la obligatoriedad de todas las personas a garantizar la integralidad y los derechos humanos universales, interdependientes y prevalentes de los niños, niñas y adolescentes).
+                  div Cuando los datos respondan al interés superior de los niños, niñas y adolescentes, en un ámbito de respeto (entiéndase interés superior como: la obligatoriedad de todas las personas a garantizar la integralidad y los derechos humanos universales, interdependientes y prevalentes de los niños, niñas y adolescentes).
                 li 
                   i.fas.fa-check.color-5
-                  | Cuando se aseguren los derechos fundamentales.
+                  div Cuando se aseguren los derechos fundamentales.
                   
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema1/img20.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img20.png", alt="Imagen")
 
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4
@@ -225,7 +225,7 @@
               
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema1/img21.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img21.png", alt="Imagen")
 
     .row.justify-content-center.align-items-center
       p A continuación, se verán las razones y funciones de las leyes de protección de datos.
@@ -239,7 +239,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
 
           .p-3.p-md-4(titulo="Derechos")
             .row.justify-content-center.align-items-center
@@ -248,7 +248,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
 
           .p-3.p-md-4(titulo="Condiciones")
             .row.justify-content-center.align-items-center
@@ -257,7 +257,7 @@
 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/temas/tema1/img25.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
       
           .p-3.p-md-4(titulo="Autorización")
             .row.justify-content-center.align-items-center
@@ -266,7 +266,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/temas/tema1/img26.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
 
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-10
@@ -274,13 +274,13 @@
             .row.justify-content-around.align-items-center
               .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/tema1/img27.svg").img90.mx-auto
+                  img(src="@/assets/curso/tema1/img27.svg").img90.mx-auto
               .col-12.col-md-10.col-lg-11
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     p.m-0 Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, <b>"Legislación en protección de datos personales en Colombia"</b> o bien puede visualizarlo dando clic en el botón.
                   .col-sm-auto.p-lg-4.text-center
-                    a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/n4GaN2DuI9Q" target="_blank")
+                    a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/bvAH9ppBbbE" target="_blank")
                       span ver video
                       i.fas.fa-file-download
 
@@ -326,7 +326,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img28.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/img28.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-0 En la cadena de suministro, la trazabilidad es una cuestión tanto reglamentaria como ética o medioambiental. La trazabilidad es un criterio fundamental para los esfuerzos de sostenibilidad relacionados con las cadenas de suministro, en las que conocer al productor, a los trabajadores y a otros eslabones es un factor necesario que subyace a las afirmaciones acertadas sobre el impacto social, económico o medioambiental. Los minoristas respetuosos con el medioambiente pueden optar por poner a disposición de los clientes la información relativa a su cadena de suministro, ilustrando el hecho de que los productos que venden se fabrican en fábricas con condiciones laborales seguras, por trabajadores que ganan un salario justo y con métodos que no dañan el medio ambiente.
 
@@ -340,43 +340,43 @@
               ul.lista-ul.mb-0
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Mecanismo para cumplir con las políticas y normativas locales e internacionales.
+                  div Mecanismo para cumplir con las políticas y normativas locales e internacionales.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Reducción del riesgo de que entren materiales ilegales o no conformes en las cadenas de suministro.
+                  div Reducción del riesgo de que entren materiales ilegales o no conformes en las cadenas de suministro.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Facilitar la coordinación entre las autoridades y los organismos pertinentes.
+                  div Facilitar la coordinación entre las autoridades y los organismos pertinentes.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Permitir la conciliación automática de lotes y volúmenes disponibles.
+                  div Permitir la conciliación automática de lotes y volúmenes disponibles.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Ofrecer un método de control y seguimiento de las existencias.
+                  div Ofrecer un método de control y seguimiento de las existencias.
             .col-12.col-lg-5
               ul.lista-ul.mb-0
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Activar las alertas de incumplimiento en tiempo real.
+                  div Activar las alertas de incumplimiento en tiempo real.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Reducir la probabilidad de errores de registro.
+                  div Reducir la probabilidad de errores de registro.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Mejorar la eficacia y la eficiencia.
+                  div Mejorar la eficacia y la eficiencia.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Aumentar la transparencia.
+                  div Aumentar la transparencia.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Promover la integridad de la empresa.
+                  div Promover la integridad de la empresa.
 
       
       .col-md-12.col-lg-10
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img29.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/img29.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-3 En logística, la trazabilidad se refiere a la capacidad de rastrear las mercancías a lo largo de la cadena de distribución, sobre la base de un número de lote o de serie.
             p.mb-3 La definición de los objetivos estratégicos, las metas, los proyectos y los indicadores es un factor determinante para establecer el calendario y el flujo de las cadenas de suministro. Siempre es necesario tener un plan B y C en caso de que la alternativa falle y ofrecer un buen servicio.
@@ -386,7 +386,7 @@
       .col-md-12.col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img30.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img30.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Normalmente, la logística se ocupa de los eventos que llevan el producto hacia el cliente. En el caso de la logística inversa, el recurso retrocede, al menos, un paso en la cadena de suministro. Por ejemplo, la mercancía pasa del cliente al distribuidor o al fabricante. <b>Cualquier proceso o gestión posterior a la venta del producto implica una logística inversa.</b> Si el producto es defectuoso, el cliente lo devolvería. La empresa fabricante tendría entonces que organizar el envío del producto defectuoso, probar el producto, desmontarlo, repararlo, reciclarlo o eliminarlo.
@@ -399,7 +399,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img31.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/img31.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-3 Un aspecto importante para el éxito de las organizaciones es asegurar que la gestión del proceso logístico esté adecuadamente alineada con la implementación de la dirección estratégica como requisito previo para obtener resultados en términos de valor añadido percibido por los clientes internos y externos como condición de eficiencia y competitividad.
             p.mb-0 A continuación, se verán los cinco principales componentes de gestión de la cadena de suministro.
@@ -408,7 +408,7 @@
         figure(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          //- figcaption Video: Leyenda del video
+          figcaption Video: Leyenda del video
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -426,12 +426,12 @@
         figure(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          //- figcaption Video: Leyenda del video
+          figcaption Video: Leyenda del video
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema1/img32.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img32.png", data-aos="zoom-in")
       .col-lg-8
         p.mb-3 <b>Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF):</b> estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
 
@@ -444,7 +444,7 @@
             .row.bgr_7.align-items-center
               .col-12.col-lg-5.mb-3.mb-lg-0
                 figure
-                  img.posit_3(src='@/assets/curso/temas/tema1/img35.svg', alt='Texto que describa la imagen')
+                  img.posit_3(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-6
                 p Al igual una petición, queja o reclamo, la respuesta debe ser clara y <b>emitirse dentro de los tiempos estipulados por la ley</b>, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
         .row.justify-center
@@ -452,7 +452,7 @@
             p La notificación o respuestas, según lo previsto en la Ley 1480 del 2011 (Estatuto del Consumidor) y en el Decreto 1074 del 2015, <b>deberá proporcionarse durante los 15 días hábiles siguientes a la recepción de la reclamación</b>, deben ser escritas ya sea en carta o email certificado y describir las causas por las cuales se dictamina en tal sentido y con las pruebas que sean soporte de sustento para la misma.
           .col-12.col-lg-2
             figure
-              img.img130.posit_4(src='@/assets/curso/temas/tema1/img36.svg', alt='Texto que describa la imagen')
+              img.img130.posit_4(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
@@ -460,7 +460,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema1/img37.svg")
+                img.img-120(src="@/assets/curso/tema1/img37.svg")
           h4.text-center.mb-3 Proceso
           p.text-center El proceso de <b>PQR</b> es importante. Cumplir los tiempos establecidos reduce la posibilidad de que se interpongan sanciones por entidades de control, como lo es la Superintendencia de Industria y Comercio.
 
@@ -469,7 +469,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema1/img38.svg")
+                img.img-120(src="@/assets/curso/tema1/img38.svg")
           h4.text-center.mb-3 Canales
           p.text-center.mb-3 Los canales para la presentación de una <b>PQR</b> más usados son:
           p.mb-1.text-center Oficinas de servicio al cliente.
@@ -481,7 +481,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema1/img39.svg")
+                img.img-120(src="@/assets/curso/tema1/img39.svg")
           h4.text-center.mb-3 Sistema
           p.text-center Un sistema de <b>PQR</b> es el instrumento para el control y mejoramiento constante de los servicios y procesos, así como el responsable de crear la fidelización para los clientes.
 
@@ -491,7 +491,7 @@
           .row.justify-content-around.align-items-center
             .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
               figure
-                img(src="@/assets/curso/temas/tema1/img40.svg").img90.mx-auto
+                img(src="@/assets/curso/tema1/img40.svg").img90.mx-auto
             .col-12.col-md-10.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -523,7 +523,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img41.png")
+              img(src="@/assets/curso/tema1/img41.png")
           .crd_hover_txt--body
             h4.mb-3 Recopilar
             p.mb-0 La primera tarea consiste en determinar y recoger las necesidades y expectativas iniciales de los clientes.
@@ -533,7 +533,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img42.png")
+              img(src="@/assets/curso/tema1/img42.png")
           .crd_hover_txt--body
             h4.mb-3 Analizar
             p.mb-0 La segunda tarea se trata de revisar los datos recogidos y asegurarse de que son claros, completos, inequívocos y coherentes.
@@ -543,7 +543,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img43.png")
+              img(src="@/assets/curso/tema1/img43.png")
           .crd_hover_txt--body
             h4.mb-3 Registrar
             p.mb-0 La última tarea es crear un documento de especificación de requisitos y presentarlo a los clientes para su validación.
@@ -558,30 +558,30 @@
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img48.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img48.svg' alt='AvatarTop')
                     p.ms-5.mb-0 <b>Confianza</b>
 
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img49.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img49.svg' alt='AvatarTop')
                     p.ms-5.mb-0 <b>Integralidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img50.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img50.svg' alt='AvatarTop')
                     p.ms-5.mb-0 <b>Puntualidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema1/img51.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img51.svg' alt='AvatarTop')
                     p.ms-5.mb-0 <b>Trazabilidad</b>
 
           .col-lg-5.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema1/img036.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/img036.svg", data-aos="zoom-in")
 
     .row.justify-content-center.mb-5
       .col-12.col-md-12.col-lg-10
@@ -597,8 +597,8 @@
             b Figura 1. 
             span Ciclo básico de PQR
         figure.mb-4
-          img(src='@/assets/curso/temas/tema1/img52.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema1/img53.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema1/img52.svg', alt='Escáner').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema1/img53.svg', alt='Escáner').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
@@ -612,7 +612,7 @@
       .col-12.col-md-12.col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-3.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img47.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img47.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Los PQR se deben solucionar o responder siguiendo los principios, <b>términos y métodos dispuestos en el Código Contencioso Administrativo</b> y su incumplimiento dará sitio a la imposición de las sanciones previstas en el mismo.

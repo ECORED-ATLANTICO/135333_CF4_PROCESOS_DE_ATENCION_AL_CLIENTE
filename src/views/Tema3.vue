@@ -12,7 +12,7 @@
       .col-md-12.col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img01.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Los indicadores de gestión o Key Performance Indicators (KPI por sus siglas en inglés), no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
@@ -23,7 +23,7 @@
           .row.justify-content-center.align-items-center
             .col-md-6.col-lg-3.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema3/img02.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img02.svg", data-aos="zoom-in")
             .col-lg-9
               h4.mb-3 De acuerdo con lo anterior, un KPI
               p.mb-0 Es una medida que evalúa cómo una empresa ejecuta su visión estratégica. Este término se refiere a cómo una estrategia interactiva, se integra en la estrategia de la empresa en su conjunto, por ello es importante que todos los implicados en ella estén de acuerdo en lo que representa la estrategia y cómo se interpretan.
@@ -39,11 +39,11 @@
         //- Figura
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
-            b Figura 2. 
-            span Sistema de calidad
+            b Figura 4. 
+            span Los elementos de un indicador de gestión
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img03.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema3/img04.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema3/img03.svg', alt='Elementos de un indicador de gestión').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema3/img04.svg', alt='Elementos de un indicador de gestión').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
@@ -55,47 +55,47 @@
 
       .col-md-12.col-lg-10.mb-4
         .row.align-items-stretch.justify-content-center
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Efectividad.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img05.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Efectividad</b>
          
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Eficiencia.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img06.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Eficiencia</b>
                 
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Eficacia.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img07.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Eficacia</b>
                 
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img08.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Productividad.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img08.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Productividad</b>
           
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img09.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Calidad.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img09.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Calidad</b>
          
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Ejecución presupuestal.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Ejecución presupuestal</b>
          
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
-                p.ms-5.mb-0 <b>Incidencia de la gestión.</b>
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+                p.ms-5.mb-0 <b>Incidencia de la gestión</b>
 
     .bg-full-width.bg-fondo-tema-2
       .row.justify-content-center.mb-4
@@ -162,7 +162,7 @@
         .row.justify-content-center
           .col-md-8.col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img12.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema3/img12.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
             TabsA.color-secundario.tabs-a--yellow
               .tarjeta.color-secundario--borde.p-5(titulo="¿Qué?")
@@ -233,14 +233,14 @@
         .row.justify-content-center.align-items-center
           .col-md-8.col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img13.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema3/img13.png", data-aos="zoom-in")
           .col-lg-8
             p.mb-3(data-aos="fade-right") Interpretar un indicador de gestión es indicar lo que está ocurriendo en un proceso específico o actividad, para ello se procede a la toma de decisiones que son, generalmente, opciones de mejora para corregir cuando su resultado se desvía de lo esperado y mejorar los resultados en el menor tiempo posible.
             p.mb-0(data-aos="fade-right") En la cultura de la medición del desempeño de las organizaciones y cuando se interpretan o se leen los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica, que son los niveles de tolerancia de los indicadores y que nos envían señales de alerta.
  
     //- puntos calientes semaforo
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.bg-color-6.p-4.mb-4.mb-lg-0
+      .col-lg-6.bg-color-6.p-4.mb-5.mb-lg-0
         h4 Los rangos de tolerancia
         p Las señales de alarma permiten monitorear la gestión y determinar cuándo hay variación frente al rango de tolerancia. Esto conlleva a:
         hr
@@ -255,27 +255,27 @@
         p Se definen utilizando la metáfora del semáforo:
 
 
-      .col-12.col-md-8.col-lg-6.mb-3.mb-lg-0
-        ImagenInfografica.color-primario.d-none.d-lg-block
+      .col-12.col-md-10.col-lg-6.mb-3.mb-lg-0
+        ImagenInfografica.color-primario.d-block.d-lg-block
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema3/img.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/img.svg', alt='Texto que describa la imagen')
               //- figcaption Leyenda de la imagen
 
-          .tarjeta.bg-rojo.p-3(x="13.3%" y="16%" numero="")
+          .tarjeta.bg-rojo.p-3.pos1(x="13.3%" y="16%" numero="")
             .h5.mb-2 Rojo
             p Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico.
 
-          .tarjeta.bg-amarillo.p-3(x="13.3%" y="41.5%" numero="")
+          .tarjeta.bg-amarillo.p-3.pos1(x="13.3%" y="41.5%" numero="")
             .h5.mb-2 Amarillo
             p Niveles preocupantes del indicador. Revisión de políticas – Aceptable.
 
-          .tarjeta.bg-verde.p-3(x="13.3%" y="68%" numero="")
+          .tarjeta.bg-verde.p-3.pos3(x="13.3%" y="68%" numero="", style="")
             .h5.mb-2 Verde
             p Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.
 
-        figure.d-sm-block.d-lg-none
-          img(src='@/assets/curso/temas/tema3/img02m.svg', alt='Semáforo que muestra estado: Rojo: Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico. Amarillo: Niveles preocupantes del indicador. Revisión de políticas – Aceptable. Verde: Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.')
+        //- figure.d-sm-block.d-lg-none
+        //-   img(src='@/assets/curso/tema3/img02m.svg', alt='Semáforo que muestra estado: Rojo: Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico. Amarillo: Niveles preocupantes del indicador. Revisión de políticas – Aceptable. Verde: Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.')
     
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-10
@@ -283,7 +283,7 @@
         .align-items-center.justify-content-star.mb-2
           .div(data-aos="fade-left")
             h3.subtitle.position-relative Interpretación de indicadores de gestión (KPI)
-              img.image(src='@/assets/curso/temas/img0.svg', alt='Imagen decorativa')
+              img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
@@ -296,10 +296,10 @@
           .row.justify-content-center.align-items-center.bg-color-10
             .col-lg-6.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema3/img17.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img17.svg", data-aos="zoom-in")
             .col-lg-6.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/temas/tema3/img18.svg", data-aos="zoom-in", style="max-width: 60%;").mx-auto
+                img(src="@/assets/curso/tema3/img18.svg", data-aos="zoom-in", style="max-width: 60%;").mx-auto
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
@@ -346,51 +346,51 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span A
-                  | Identificar el proceso, área o la actividad a medir.
+                  div Identificar el proceso, área o la actividad a medir.
                 li 
                   .lista-ol--cuadro__vineta
                     span B
-                  | Responsable del indicador.
+                  div Responsable del indicador.
                 li 
                   .lista-ol--cuadro__vineta
                     span C
-                  | Conceptualizar cada paso del proceso.
+                  div Conceptualizar cada paso del proceso.
                 li 
                   .lista-ol--cuadro__vineta
                     span D
-                  | Definir el objetivo del indicador y cada variable a medir.
+                  div Definir el objetivo del indicador y cada variable a medir.
                 li 
                   .lista-ol--cuadro__vineta
                     span E
-                  | Recolectar información inherente al proceso.
+                  div Recolectar información inherente al proceso.
                 li 
                   .lista-ol--cuadro__vineta
                     span F
-                  | Cuantificar y medir las variables.
+                  div Cuantificar y medir las variables.
                 li 
                   .lista-ol--cuadro__vineta
                     span G
-                  | Establecer el indicador a controlar.
+                  div Establecer el indicador a controlar.
                 li 
                   .lista-ol--cuadro__vineta
                     span H
-                  | Comparar con el indicador global y el de la competencia interna.
+                  div Comparar con el indicador global y el de la competencia interna.
                 li 
                   .lista-ol--cuadro__vineta
                     span I
-                  | Seguir y retroalimentar las mediciones periódicamente.
+                  div Seguir y retroalimentar las mediciones periódicamente.
                 li 
                   .lista-ol--cuadro__vineta
                     span J
-                  | Mejorar continuamente el indicador.
+                  div Mejorar continuamente el indicador.
                 li 
                   .lista-ol--cuadro__vineta
                     span K
-                  | Proyección y benchmarking externos.
+                  div Proyección y benchmarking externos.
 
             .col-md-8.col-lg-5.mb-3.mb-lg-0.mt-md-3
               figure
-                img(src="@/assets/curso/temas/tema3/img20.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img20.png", data-aos="zoom-in")
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10.mb-4
@@ -495,45 +495,45 @@
         .col-md-12.col-lg-10
           .row.justify-content-center.align-items-center.bg-color-13.p-4
             .col-lg-9.mb-2.mb-lg-0.p-2.order-md-2.order-lg-1
-              ol.lista-ol--cuadro.mb-0.ps-4
+              ol.lista-ol--cuadro.mb-0.ps-lg-4
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span A
-                  | <b>Nombre</b>: el nombre que se va a dar al indicador dependiendo la actividad a medir.
+                  div <b>Nombre</b>: el nombre que se va a dar al indicador dependiendo la actividad a medir.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span B
-                  | <b>Objetivo del indicador</b>: con qué objetivo se plantea el indicador.
+                  div <b>Objetivo del indicador</b>: con qué objetivo se plantea el indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span C
-                  | <b>Forma de cálculo del indicador</b>: la fórmula para calcular los resultados del indicador.
+                  div <b>Forma de cálculo del indicador</b>: la fórmula para calcular los resultados del indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span D
-                  | <b>Periodicidad</b>: el periodo de tiempo que se toma para medir el indicador.
+                  div <b>Periodicidad</b>: el periodo de tiempo que se toma para medir el indicador.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span E
-                  | <b>Responsable</b>: todo indicador debe tener un responsable.
+                  div <b>Responsable</b>: todo indicador debe tener un responsable.
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span F
-                  | <b>Área que recibe el indicador</b>
+                  div <b>Área que recibe el indicador</b>
 
                 li 
                   .lista-ol--cuadro__vineta.bg-color-14
                     span G
-                  | <b>Impacto</b>: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
+                  div <b>Impacto</b>: se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
 
             .col-md-6.col-lg-3.mb-2.mb-lg-0.order-md-1.mt-md-4.order-lg-2
               figure
-                img(src="@/assets/curso/temas/tema3/img21.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img21.svg", data-aos="zoom-in")
 
     separador
 
@@ -547,7 +547,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img22.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema3/img22.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
             p.mb-3(data-aos="fade-right") Estos reportes e informes de gestión basados en los indicadores de gestión, deben centrarse en las estrategias de valor que se han diseñado para la satisfacción del cliente y en las áreas organizacionales comprometidas en la atención, colaboración con el cliente y oportunidades de negocio. Los reportes o informes inherentes al desempeño de las áreas se deben presentar por cada uno de los responsables con su respectivo análisis de los resultados arrojados; pero antes de lo anterior es necesario establecer los KPI en cada área o actividad.
             p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
@@ -618,7 +618,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema3/img24.svg")
+                img.img-120(src="@/assets/curso/tema3/img24.svg")
           h4.text-center.mb-3 Informe analítico
           p.text-center.mb-0 Detalla el KPI y trabaja para explicar qué fue lo que más impactó en sus resultados. Se pueden incluir datos históricos de los KPI para su comparación.
 
@@ -627,7 +627,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema3/img25.svg")
+                img.img-120(src="@/assets/curso/tema3/img25.svg")
           h4.text-center.mb-3 Informe operativo
           p.text-center.mb-0 Proporciona datos sobre cómo los KPI miden las operaciones diarias de una organización para que la dirección pueda tomar decisiones bien informadas.
 
@@ -636,7 +636,7 @@
           .row.justify-content-center.mb-3
             .col-8
               figure
-                img.img-120(src="@/assets/curso/temas/tema3/img26.svg")
+                img.img-120(src="@/assets/curso/tema3/img26.svg")
           h4.text-center.mb-3 Informe estratégico
           p.text-center.mb-0 Refleja la salud de la organización y su progreso para que las partes interesadas puedan determinar si la empresa está cumpliendo los objetivos.
     
@@ -645,7 +645,7 @@
         .row.justify-content-center.align-items-center.bg-color-10.p-4
           .col-auto.col-lg-4.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema3/img27.svg", data-aos="zoom-in", style="max-width: 75%;").mx-auto
+              img(src="@/assets/curso/tema3/img27.svg", data-aos="zoom-in", style="max-width: 75%;").mx-auto
           .col-lg-7
             h4.mb-3 ¿Qué incluir en un informe de KPI?
             p.mb-0 Aunque el informe debe redactarse para responder a las necesidades de atención al cliente de forma que refleje adecuadamente sus objetivos o proyectos, hay algunos datos clave que puede ser útil incluir.
@@ -657,7 +657,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img28.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img28.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
               
                 p.mb-0 Identifique claramente qué objetivo está evaluando el KPI.
@@ -666,7 +666,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img29.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img29.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Indique el indicador clave de rendimiento cuantificable, relevante y procesable que está utilizando para la medición.
 
@@ -674,7 +674,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img30.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img30.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Explique por qué usted o su equipo han elegido este KPI y cómo los datos resultantes contribuyen al éxito de la empresa.
 
@@ -682,7 +682,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img31.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img31.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Indique con qué frecuencia ha medido su indicador clave de rendimiento y con qué frecuencia lo reexaminará.
 
@@ -690,7 +690,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img32.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img32.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Identifique dónde recopiló los datos y considere la posibilidad de compartir una fórmula para calcularlos.
 
@@ -698,7 +698,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img33.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img33.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Utilice un cuadro, una tabla o una gráfica para facilitar la comprensión. Si procede, compárelo con los anteriores visuales del mismo tipo para hacer un seguimiento del progreso a lo largo del tiempo.
 
@@ -706,7 +706,7 @@
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
-                  img(src="@/assets/curso/temas/tema3/img34.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema3/img34.svg", data-aos="zoom-in")
               .col-lg-9.order-lg-2
                 p.mb-0 Aquí puedes añadir brevemente cualquier otra información relevante o interpretación de las métricas obtenidas.
           

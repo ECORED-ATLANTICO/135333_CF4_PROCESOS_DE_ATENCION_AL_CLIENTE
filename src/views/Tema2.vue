@@ -15,7 +15,7 @@
       .col-md-12.col-lg-10
         .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 <b>La norma ISO 9001</b>: 2015 es la norma de Sistemas de Gestión de la Calidad (SGC) más reconocida e implantada en el mundo. Especifica los requisitos para un SGC que las organizaciones pueden utilizar para desarrollar sus propios programas.
@@ -54,8 +54,8 @@
             b Figura 2. 
             span Sistema de calidad
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img19.svg', alt='').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/temas/tema2/img03.svg', alt='').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema2/img19.svg', alt='Sistema de calidad').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema2/img03.svg', alt='Sistema de calidad').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
@@ -72,19 +72,19 @@
           .row.justify-content-center.align-items-center
             .col-md-6.col-lg-3.mb-4.mb-lg-0
               figure
-                img.ps-lg-5(src="@/assets/curso/temas/tema2/img05.svg", data-aos="zoom-in")
+                img.ps-lg-5(src="@/assets/curso/tema2/img05.svg", data-aos="zoom-in")
             .col-12.col-md-12.col-lg-8.px-lg-5
               h4.mb-3 ¡Atención!
               ul.lista-ul
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Las reglas de la serie ISO 9000 “no son prescriptivas”.
+                  div Las reglas de la serie ISO 9000 “no son prescriptivas”.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | Permiten utilizar cualquier práctica o herramienta que se considere idónea para el tipo de producto, servicio o consumidores al que se sirve.
+                  div Permiten utilizar cualquier práctica o herramienta que se considere idónea para el tipo de producto, servicio o consumidores al que se sirve.
                 li 
                   i.fas.fa-check.bg-color-5
-                  | No pretende obligar ni “recetar” metodologías (los cómo), sino afirmar que el hincapié se dé en el cumplimiento de los requisitos exigidos de forma obligatoria referenciados en la norma.
+                  div No pretende obligar ni “recetar” metodologías (los cómo), sino afirmar que el hincapié se dé en el cumplimiento de los requisitos exigidos de forma obligatoria referenciados en la norma.
 
       separador
       
@@ -97,7 +97,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-6.col-lg-4.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema2/img06.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/img06.png", data-aos="zoom-in")
       .col-md-12.col-lg-8
         p.mb-4(data-aos="fade-right") Conforme a las necesidades de los distintos sectores en atención al cliente, el sistema de calidad contribuye de forma integral con pertinencia y calidad sin distinción de ninguna clase y organiza, desarrolla, administra y ejecuta acciones de forma integral en coordinación y en función de las necesidades sociales y del sector productivo acorde la actividad de la empresa.
         p.mb-0(data-aos="fade-right") La inserción de las poblaciones sujetas de especial protección por parte del Estado en diferentes escenarios sociales, económicos, productivos, culturales, formativos, entre otros, se facilita brindando a estos colectivos poblaciones de atención con un enfoque participativo y pluralista para fortalecer competencias con fundamento en particularidades para lograr la inclusión social y un mayor grado de pertinencia en la atención.
@@ -112,31 +112,31 @@
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img07.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Eficiencia en los procesos u ocupaciones de la organización (mejora de costos).
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img08.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Mejora importante en la satisfacción de los consumidores.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img09.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Herramienta de comunicación para optimización de la Imagen de la organización.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Aumento del ingreso al mercado, sin parámetros de fronteras.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
                 p.ms-5.mb-0 Incremento de la comunicación interna, satisfacción de los trabajadores.
 
       .col-md-12.col-lg-10
@@ -152,8 +152,8 @@
             b Figura 3. 
             span Pasos a seguir para que la empresa sea certificada con ISO 9001
         figure.mb-4
-          img(src='@/assets/curso/temas/tema2/img21.svg', alt='').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/temas/tema2/img20.svg', alt='').mx-auto.d-sm-block.d-lg-none.d-md-none
+          img(src='@/assets/curso/tema2/img12.png', alt='Pasos a seguir para que la empresa sea certificada con ISO 9001').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/tema2/img13.png', alt='Pasos a seguir para que la empresa sea certificada con ISO 9001').mx-auto.d-sm-block.d-lg-none.d-md-none
 
         figcaption 
           b Nota. 
@@ -174,7 +174,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-5.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/temas/tema2/img14.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/img14.png", data-aos="zoom-in")
           .col-md-12.col-lg-7
             p.mb-3(data-aos="fade-right") Un protocolo es el grupo de métodos para asegurar que un producto o servicio cumpla con ciertos criterios. Para el caso del protocolo del sistema de gestión tales criterios serían la calidad o los requisitos del comprador.
             p.mb-3(data-aos="fade-right") Los ANS (Acuerdos de Niveles de Servicio), también conocidos como SLA, establecen la relación entre el cliente y el proveedor.
@@ -191,7 +191,7 @@
               p.mb-0 Es un protocolo plasmado normalmente en un documento por el que una compañía que presta un servicio a otra se compromete a prestar el mismo bajo unas determinadas condiciones y con unas prestaciones mínimas o que se realiza entre los empleados de una empresa.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema2/img15.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img15.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -199,7 +199,7 @@
               p.mb-0 Un ANS tratará de mantener y garantizar la calidad de un servicio brindado a un cliente.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema2/img16.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img16.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -207,7 +207,7 @@
               p.mb-0 El Acuerdo de Nivel de Servicio es el mantenimiento de la disponibilidad de un determinado servicio basado en un compromiso del nivel de cumplimiento en su ejecución, que puede ser medido y demostrado.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema2/img17.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img17.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -215,7 +215,7 @@
               p.mb-0 En los ANS se pueden establecer tantos indicadores como se estimen necesarios y de su evaluación se obtienen, por ejemplo, penalizaciones a la empresa suministradora, identificación de puntos débiles del proceso e indicaciones para procesos de mejora continua en determinadas actividades.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema2/img18.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img18.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
         
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10.mb-1

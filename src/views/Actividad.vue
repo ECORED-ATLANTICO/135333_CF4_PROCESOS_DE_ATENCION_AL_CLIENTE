@@ -198,7 +198,7 @@ export default {
         {
           id: 13,
           texto: 'La gestión de requerimientos debe documentarse.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -212,7 +212,7 @@ export default {
         {
           id: 14,
           texto: 'Los indicadores no permiten tomar decisiones estratégicas.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
@@ -226,7 +226,7 @@ export default {
         {
           id: 15,
           texto: 'La calidad es responsabilidad exclusiva de la gerencia.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
@@ -240,7 +240,7 @@ export default {
         {
           id: 16,
           texto: 'La evaluación de resultados mejora el servicio.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -298,7 +298,7 @@ export default {
           id: 20,
           texto:
             'La mejora continua permite optimizar los procesos de atención al cliente.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
