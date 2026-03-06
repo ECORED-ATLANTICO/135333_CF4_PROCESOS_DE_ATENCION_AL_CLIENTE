@@ -117,11 +117,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -276,16 +276,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yuly Rey',
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Carlos Ándres Díaz Pinto',
-          cargo: 'Desarrollo front-end',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Zuleidy María Ruíz Torres',
