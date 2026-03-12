@@ -42,12 +42,12 @@
             b Figura 4. 
             span Los elementos de un indicador de gestión
         figure.mb-4
-          img(src='@/assets/curso/tema3/img03.svg', alt='Elementos de un indicador de gestión').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema3/img04.svg', alt='Elementos de un indicador de gestión').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema3/img03.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema3/img04.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
-          | SENA 2026
+          | SENA 2026.
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10.mb-5
@@ -189,36 +189,38 @@
         .titulo-sexto.color-acento-contenido
           h5 
             b Tabla 3. 
+            | Indicadores de gestión para medir el nivel de servicio
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2026
+            caption Nota: SENA 2026.
             thead
               tr
-                th(colspan="2") Indicadores de gestión para medir el nivel de servicio
+                th Indicadores
+                th Órdenes
             tbody
               tr
-                td <b>Órdenes completas</b>
+                td <b>Órdenes completas.</b>
                 td Órdenes entregadas completas / Órdenes totales surtidas.
               tr
-                td <b>Órdenes a tiempo</b>
+                td <b>Órdenes a tiempo.</b>
                 td Órdenes entregadas a tiempo / Órdenes totales despachadas.
               tr
-                td <b>Órdenes en cantidad</b>
+                td <b>Órdenes en cantidad.</b>
                 td Unidades recibidas orden / Unidades entregadas orden.
               tr
-                td <b>Precisión facturación</b>
+                td <b>Precisión facturación.</b>
                 td Facturas aceptadas / Facturas generadas.
               tr
-                td <b>Ciclo de orden</b>
+                td <b>Ciclo de orden.</b>
                 td Sumatoria de fechas (recepción – fechas de solicitud).
               tr
-                td <b>Ordenes con devolución</b>
+                td <b>Ordenes con devolución.</b>
                 td Órdenes devueltas / Órdenes totales generadas.
               tr
-                td <b>Quejas de clientes</b>
+                td <b>Quejas de clientes.</b>
                 td Órdenes con quejas / Órdenes totales generadas.
               tr
-                td <b>Resolución de quejas de clientes</b>
+                td <b>Resolución de quejas de clientes.</b>
                 td Quejas con resolución a tiempo / Quejas recibidas.
 
     separador
@@ -439,7 +441,7 @@
             span Servicio al cliente
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2026
+            caption Nota: SENA 2026.
             thead
               tr
                 th Indicador
@@ -653,7 +655,7 @@
     .row.justify-content-center.mb-0
       .col-md-12.col-lg-10
         TabsA.color-acento-botones.tabs-a--h-auto
-          .tarjeta.color-acento-botones--borde.p-4.h-auto(titulo="Meta")
+          .tarjeta.color-acento-botones--borde.p-4.h-auto(titulo="Meta.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -662,7 +664,7 @@
               
                 p.mb-0 Identifique claramente qué objetivo está evaluando el KPI.
           
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Métrica")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Métrica.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -670,7 +672,7 @@
               .col-lg-9.order-lg-2
                 p.mb-0 Indique el indicador clave de rendimiento cuantificable, relevante y procesable que está utilizando para la medición.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Justificación")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Justificación.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -678,7 +680,7 @@
               .col-lg-9.order-lg-2
                 p.mb-0 Explique por qué usted o su equipo han elegido este KPI y cómo los datos resultantes contribuyen al éxito de la empresa.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Frecuencia")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Frecuencia.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -686,7 +688,7 @@
               .col-lg-9.order-lg-2
                 p.mb-0 Indique con qué frecuencia ha medido su indicador clave de rendimiento y con qué frecuencia lo reexaminará.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Fuente")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Fuente.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -694,7 +696,7 @@
               .col-lg-9.order-lg-2
                 p.mb-0 Identifique dónde recopiló los datos y considere la posibilidad de compartir una fórmula para calcularlos.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Material visual")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Material visual.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure
@@ -702,7 +704,7 @@
               .col-lg-9.order-lg-2
                 p.mb-0 Utilice un cuadro, una tabla o una gráfica para facilitar la comprensión. Si procede, compárelo con los anteriores visuales del mismo tipo para hacer un seguimiento del progreso a lo largo del tiempo.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Comentarios")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Comentarios.")
             .row.justify-content-center.align-items-center
               .col-8.col-md-6.col-lg-3.mb-4.mb-lg-0.order-lg-1
                 figure

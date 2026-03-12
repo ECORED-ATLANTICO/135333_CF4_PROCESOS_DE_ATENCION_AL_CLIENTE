@@ -54,12 +54,12 @@
             b Figura 2. 
             span Sistema de calidad
         figure.mb-4
-          img(src='@/assets/curso/tema2/img19.svg', alt='Sistema de calidad').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema2/img03.svg', alt='Sistema de calidad').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema2/img19.svg', alt='En la figura se muestra la medición, análisis, mejora; responsabilidad de la dirección, gestión de los recursos, realización del producto o servicio; cliente, requisitos, satisfacción.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema2/img03.svg', alt='En la figura se muestra la medición, análisis, mejora; responsabilidad de la dirección, gestión de los recursos, realización del producto o servicio; cliente, requisitos, satisfacción.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
-          | SENA 2026
+          | SENA 2026.
 
     .row.justify-content-center.align-items-center.mb-1
       .col-md-12.col-lg-10
@@ -152,12 +152,12 @@
             b Figura 3. 
             span Pasos a seguir para que la empresa sea certificada con ISO 9001
         figure.mb-4
-          img(src='@/assets/curso/tema2/img12.png', alt='Pasos a seguir para que la empresa sea certificada con ISO 9001').mx-auto.d-none.d-lg-block.d-md-block
-          img(src='@/assets/curso/tema2/img13.png', alt='Pasos a seguir para que la empresa sea certificada con ISO 9001').mx-auto.d-sm-block.d-lg-none.d-md-none
+          img(src='@/assets/curso/tema2/img12.png', alt='Se detalla en la figura los pasos: - Diagnóstico y planificación. - Diseño e implementación. - Auditoría. - Certificación. - Seguimiento.').mx-auto.d-none.d-lg-block.d-md-block
+          img(src='@/assets/curso/tema2/img13.png', alt='Se detalla en la figura los pasos: - Diagnóstico y planificación. - Diseño e implementación. - Auditoría. - Certificación. - Seguimiento.').mx-auto.d-sm-block.d-lg-none.d-md-none
 
         figcaption 
           b Nota. 
-          | SENA 2026
+          | SENA 2026.
 
       .col-md-12.col-lg-10
         p.mb-0(data-aos="fade-right") Se puede decir, entonces, que disponer de un sistema de administración de la calidad bajo la ISO 9001 es una virtud competitiva y debe ser una elección estratégica tenida presente por cada una de las empresas.
@@ -221,25 +221,25 @@
       .col-md-12.col-lg-10.mb-1
         .titulo-sexto.color-acento-contenido
           h5 
-            b Tabla 2. 
+            b Tabla 2. Normas y entidades de importancia para la implementación de los ANS
         .tabla-a.color-acento-contenido
           table
-            caption Fuente: SENA 2026
+            caption Nota. SENA 2026.
             thead
               tr
                 th(colspan="2") Normas y entidades de importancia para la implementación de los ANS
             tbody
               tr
-                td <b>ISO 9001.</b>	
-                td Capítulo 7 numeral 5: Control de la producción y la prestación del servicio, dice que se debe asegurar la implementación del seguimiento y la medición así como la implementación de actividades de entrega del producto. De igual manera, en el capítulo 8, numeral 1 se hace mención de la satisfacción del cliente y en el capítulo 8, numeral 5 de la mejora continua.
+                td.text-left <b>ISO 9001.</b>	
+                td.text-left Capítulo 7 numeral 5: control de la producción y la prestación del servicio, dice que se debe asegurar la implementación del seguimiento y la medición así como la implementación de actividades de entrega del producto. De igual manera, en el capítulo 8, numeral 1 se hace mención de la satisfacción del cliente y en el capítulo 8, numeral 5 de la mejora continua.
               
               tr
-                td <b>ITIL Information Technology Infrastructure Library ITIL V3. 2011.</b>	
-                td Considera dentro del módulo de diseño del servicio los ANS como pilares del marco de trabajo, donde se encuentra la biblioteca de buenas prácticas de manejo de las tecnologías de la información.
+                td.text-left <b>ITIL Information <em>Technology Infrastructure Library ITIL</em> V3. 2011.</b>	
+                td.text-left Considera dentro del módulo de diseño del servicio los ANS como pilares del marco de trabajo, donde se encuentra la biblioteca de buenas prácticas de manejo de las tecnologías de la información.
               
               tr
-                td <b>Superintendencia Financiera de Colombia.</b>	
-                td Circular externa 042 de 2012 - requerimientos mínimos de seguridad y calidad para la realización de operaciones: Para procesos de tercerización outsourcing.
+                td.text-left <b>Superintendencia Financiera de Colombia.</b>	
+                td.text-left Circular externa 042 de 2012 - requerimientos mínimos de seguridad y calidad para la realización de operaciones: Para procesos de tercerización outsourcing.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10
