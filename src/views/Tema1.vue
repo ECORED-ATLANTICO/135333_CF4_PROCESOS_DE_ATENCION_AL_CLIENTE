@@ -43,8 +43,8 @@
       .col-md-12.col-lg-12
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
@@ -409,8 +409,8 @@
       .col-md-12.col-lg-12.mb-4
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -427,8 +427,8 @@
       .col-lg-12
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0

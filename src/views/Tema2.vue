@@ -248,8 +248,9 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
         figure
-          .video
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/t8Y-8216i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen) 
+          .video-mb-2
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/15ZImhs_ijc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen) 
+          figcaption Nota. SENA, (2026).
 
 </template>
 
