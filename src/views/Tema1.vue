@@ -244,7 +244,7 @@
           .p-3.p-md-4(titulo="Derechos")
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-md-0
-                p.p-4 Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el habeas data. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
+                p.p-4 Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el <em>habeas data</em>. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure

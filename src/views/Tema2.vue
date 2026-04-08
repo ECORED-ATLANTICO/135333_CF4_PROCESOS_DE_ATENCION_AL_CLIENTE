@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
-        p.mb-0 La política de atención con enfoque pluralista y diferencial completo de los lineamientos orientaciones y requerimientos del sistema integrado de gestión de calidad para satisfacer expectativas de las poblaciones en un marco de mejora continua.
+        p.mb-0 La política de atención con enfoque pluralista y diferencial completo de los lineamientos, orientaciones y requerimientos del sistema integrado de gestión de calidad para satisfacer expectativas de las poblaciones en un marco de mejora continua.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10
@@ -99,13 +99,13 @@
         figure
           img(src="@/assets/curso/tema2/img06.png", data-aos="zoom-in")
       .col-md-12.col-lg-8
-        p.mb-4(data-aos="fade-right") Conforme a las necesidades de los distintos sectores en atención al cliente, el sistema de calidad contribuye de forma integral con pertinencia y calidad sin distinción de ninguna clase y organiza, desarrolla, administra y ejecuta acciones de forma integral en coordinación y en función de las necesidades sociales y del sector productivo acorde la actividad de la empresa.
+        p.mb-4(data-aos="fade-right") Conforme a las necesidades de los distintos sectores en atención al cliente, el sistema de calidad contribuye de forma integral con pertinencia y calidad sin distinción de ninguna clase y organiza, desarrolla, administra y ejecuta acciones en coordinación y en función de las necesidades sociales y del sector productivo acorde con la actividad de la empresa.
         p.mb-0(data-aos="fade-right") La inserción de las poblaciones sujetas de especial protección por parte del Estado en diferentes escenarios sociales, económicos, productivos, culturales, formativos, entre otros, se facilita brindando a estos colectivos poblaciones de atención con un enfoque participativo y pluralista para fortalecer competencias con fundamento en particularidades para lograr la inclusión social y un mayor grado de pertinencia en la atención.
 
     .row.mb-5.justify-content-center.align-items-center
 
       .col-md-12.col-lg-10.mb-4
-        p.mb-0(data-aos="fade-right") Las principales características del sistema de calidad se resume en:
+        p.mb-0(data-aos="fade-right") Las principales características se resumen en:
 
       .col-md-12.col-lg-10.mb-4
         .row.align-items-stretch.justify-content-center.justify-content-xl-start

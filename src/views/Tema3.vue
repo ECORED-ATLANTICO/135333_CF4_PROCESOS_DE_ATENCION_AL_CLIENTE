@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los indicadores de gestión o Key Performance Indicators (KPI por sus siglas en inglés), no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
+            p.mb-0 Los indicadores de gestión o Key Performance Indicators (KPI por sus siglas en inglés), no son una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se puede mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
 
     .container
       .row.justify-content-center.align-items-center.mb-4
@@ -31,7 +31,7 @@
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
         p.mb-3 Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación donde el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
-        p.mb-0 Se puede reconocer los elementos de un indicador de gestión, de acuerdo con el siguiente esquema:
+        p.mb-0 Se pueden reconocer los elementos de un indicador de gestión, de acuerdo con el siguiente esquema:
 
     //- figura
     .row.justify-content-center.mb-4
@@ -40,7 +40,7 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Figura 4. 
-            span Los elementos de un indicador de gestión
+            span Los elementos de un indicador de gestión 
         figure.mb-4
           img(src='@/assets/curso/tema3/img03.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-none.d-md-block.d-sm-none
           img(src='@/assets/curso/tema3/img04.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-block.d-md-none.d-sm-block
@@ -289,7 +289,7 @@
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
-        p.mb-3 Los KPI permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador, además de entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades oportunidades y las amenazas por lo tanto es importante clarificar y precisar las condiciones necesarias para construir aquellos realmente útiles para medir el desempeño de las organizaciones en sus diferentes áreas.
+        p.mb-3 Los KPI permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador, además de entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades, oportunidades y las amenazas por lo tanto es importante clarificar y precisar las condiciones necesarias para construir aquellos realmente útiles para medir el desempeño de las organizaciones en sus diferentes áreas.
         p.mb-0 Una regla ampliamente usada en la interpretación de los KPI es que el objetivo debe ser SMART; las cinco letras significan:
 
     .container
@@ -331,7 +331,7 @@
 
       .col-md-12.col-lg-10.mb-4(data-aos="fade-right")
         .cajon.bg-primario.p-4
-          p.mb-0 Los indicadores de gestión se deben diseñar para monitorear resultado de variable de acuerdo a la necesidad de cada nivel organizacional y su resultado está expresado de manera numérica que nos indica el nivel de desempeño o el cumplimiento de los objetivos trazados. Es indispensable que toda empresa desarrolle habilidades alrededor del manejo de los indicadores de gestión logística, con el fin de poder utilizar la información resultante de manera oportuna tomar decisiones (Mora, 2004).
+          p.mb-0 Los indicadores de gestión se deben diseñar para monitorear el resultado de una variable de acuerdo a la necesidad de cada nivel organizacional y su resultado está expresado de manera numérica, que nos indica el nivel de desempeño o el cumplimiento de los objetivos trazados. Es indispensable que toda empresa desarrolle habilidades alrededor del manejo de los indicadores de gestión logística, con el fin de poder utilizar la información resultante de manera oportuna para tomar decisiones (Mora, 2004).
 
       .col-md-12.col-lg-10.mb-4
         p.mb-3(data-aos="fade-right") Para aplicar y/o establecer los indicadores de gestión (KPI) es importante tener claridad sobre cómo hacerlo correctamente, de dónde son las fuentes de información, responsables, recursos, frecuencia de la medición y presentación de los informes.
