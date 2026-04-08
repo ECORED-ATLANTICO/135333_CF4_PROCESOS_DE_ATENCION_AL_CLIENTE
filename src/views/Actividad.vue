@@ -20,9 +20,9 @@ export default {
       tema: 'Gestión de requerimientos e indicadores de desempeño',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Analizar la aplicación de la normatividad vigente, los sistemas de calidad y los indicadores de gestión, fortaleciendo la toma de decisiones y la mejora continua en los procesos de atención al cliente.<br><br>Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
+        '<b>Objetivo:</b> analizar la aplicación de la normatividad vigente, los sistemas de calidad y los indicadores de gestión, fortaleciendo la toma de decisiones y la mejora continua en los procesos de atención al cliente.<br><br>Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {

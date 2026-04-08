@@ -29,13 +29,13 @@
               .custom-list__header.p-3.text-center
                 b Leyes y decretos
               .custom-list__item.p-3.text-center
-                | Ley 1273 de 2009
+                | Ley 1273 de 2009.
               .custom-list__item.p-3.text-center
-                | Ley 1581 de octubre de 2012
+                | Ley 1581 de octubre de 2012.
               .custom-list__item.p-3.text-center
-                | Decreto 1377 de 2013
+                | Decreto 1377 de 2013.
               .custom-list__item.p-3.text-center
-                | Decreto 1074 de 2015
+                | Decreto 1074 de 2015.
 
             p El siguiente video resume los aspectos más relevantes de la ley que rige los estatutos para la protección de datos personales, así como los decretos ya mencionados, que la reglamentan o modifican.
 
@@ -43,8 +43,8 @@
       .col-md-12.col-lg-12
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
@@ -62,49 +62,49 @@
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Edad</b>
+                  p.ms-5.mb-0 <b>Edad.</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Nombre</b>
+                  p.ms-5.mb-0 <b>Nombre.</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Documento de identidad</b>
+                  p.ms-5.mb-0 <b>Documento de identidad.</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Números telefónicos de contacto</b>
+                  p.ms-5.mb-0 <b>Números telefónicos de contacto.</b>
             
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Correo electrónico</b>
+                  p.ms-5.mb-0 <b>Correo electrónico.</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Número de seguridad social</b>
+                  p.ms-5.mb-0 <b>Número de seguridad social.</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Dirección de domicilio</b>
+                  p.ms-5.mb-0 <b>Dirección de domicilio.</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Entre otros</b>
+                  p.ms-5.mb-0 <b>Entre otros.</b>
       
       
       .row.justify-content-center.mb-4
@@ -120,31 +120,31 @@
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Colaboradores
+                  p.ms-5.mb-0 Colaboradores.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Terceros que presten servicios a la empresa
+                  p.ms-5.mb-0 Terceros que presten servicios a la empresa.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Contratistas
+                  p.ms-5.mb-0 Contratistas.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Operadores
+                  p.ms-5.mb-0 Operadores.
 
             .col-md-6.col-lg-8
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                   img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa
+                  p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-10.mb-4
@@ -244,7 +244,7 @@
           .p-3.p-md-4(titulo="Derechos")
             .row.justify-content-center.align-items-center
               .col-lg-8.mb-4.mb-md-0
-                p.p-4 Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el habeas data. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
+                p.p-4 Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el <em>habeas data</em>. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
@@ -285,33 +285,35 @@
                       i.fas.fa-file-download
 
         .col-md-12.col-lg-10.mb-5
-          p.mb-0 Ahora, se relacionan otras normas que están relacionadas con Atención al cliente, donde los ciudadanos pueden basarse para someter PQR (peticiones, quejas y reclamos) son las que aparecen a continuación:
+          p.mb-0 Ahora, se relacionan otras normas que están relacionadas con atención al cliente, donde los ciudadanos pueden basarse para someter PQR (peticiones, quejas y reclamos) son las que aparecen a continuación:
 
         .col-md-12.col-lg-10.mb-1
           .titulo-sexto.color-acento-contenido
             h5 
               b Tabla 1. 
+              | Normas relacionadas con atención al cliente
           .tabla-a.color-acento-contenido
             table
-              caption Nota: SENA 2026
+              caption Nota. SENA 2026.
               thead
                 tr
-                  th(colspan="2")
+                  th Normas
+                  th Bases PQR
               tbody
                 tr
-                  td <b>Artículo 23 de la Constitución Política de Colombia (1991)</b>
+                  td <b>Artículo 23 de la Constitución Política de Colombia (1991).</b>
                   td Concerniente a las peticiones que puede realizar cada ciudadano.
                 tr
-                  td <b>Ley 1755 de 2015</b>
+                  td <b>Ley 1755 de 2015.</b>
                   td Por medio de la cual se regula el derecho fundamental de petición.
                 tr
-                  td <b>Ley 1437 2011</b>
+                  td <b>Ley 1437 2011.</b>
                   td Código de Procedimiento Administrativo y de lo Contencioso Administrativo.
                 tr
-                  td <b>Ley 1474 de 2011</b>
+                  td <b>Ley 1474 de 2011.</b>
                   td Actos de corrupción.
                 tr
-                  td <b>Decreto 19 de 2012</b>
+                  td <b>Decreto 19 de 2012.</b>
                   td Antitrámites.
           
     separador
@@ -407,8 +409,8 @@
       .col-md-12.col-lg-12.mb-4
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -425,8 +427,8 @@
       .col-lg-12
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -595,14 +597,14 @@
         .titulo-sexto.mb-4.color-acento-contenido
           h5 
             b Figura 1. 
-            span Ciclo básico de PQR
+            span Ciclo básico de PQR.
         figure.mb-4
-          img(src='@/assets/curso/tema1/img52.svg', alt='Escáner').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema1/img53.svg', alt='Escáner').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se muestra el sistema de información transversal: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se muestra el sistema de información transversal: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
-          | SENA 2026
+          | SENA 2026.
 
     .row.justify-content-center.mb-5
       .col-12.col-md-12.col-lg-10

@@ -12,8 +12,8 @@
 
     figure.mb-5
       .video-mb-2(data-aos="fade-up")
-        iframe(width="100%" height="450" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="100%" height="450" src="https://www.youtube.com/embed/BZTgB0mNmaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Nota. SENA, (2026).
 
 </template>
 
