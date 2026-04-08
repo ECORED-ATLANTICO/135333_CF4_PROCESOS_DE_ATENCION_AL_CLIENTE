@@ -289,7 +289,7 @@
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
-        p.mb-3 Los KPI permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador, además de entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades, oportunidades y las amenazas por lo tanto es importante clarificar y precisar las condiciones necesarias para construir aquellos realmente útiles para medir el desempeño de las organizaciones en sus diferentes áreas.
+        p.mb-3 Los KPI permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador, además de entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades, oportunidades y las amenazas por lo tanto, es importante clarificar y precisar las condiciones necesarias para construir aquellos realmente útiles para medir el desempeño de las organizaciones en sus diferentes áreas.
         p.mb-0 Una regla ampliamente usada en la interpretación de los KPI es que el objetivo debe ser SMART; las cinco letras significan:
 
     .container
