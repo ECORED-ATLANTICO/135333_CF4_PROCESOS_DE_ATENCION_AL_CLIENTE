@@ -224,12 +224,12 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          cargo: 'Responsable de la línea de producción',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -252,7 +252,7 @@ export default {
           nombre: 'Alex García',
           cargo: 'Diseñador instruccional',
           centro:
-            'Centro de la Industria, la Empresa y Los Servicios - CIES Regional - Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
@@ -282,25 +282,25 @@ export default {
         {
           nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional - Tolima',
+          centro: 'Centro de Comercio y Servicios Regional – Tolima',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Camilo Andrés Bolaño Rey',
           cargo: 'Locución',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Laura Ximena Hurtado Villalba',
@@ -327,7 +327,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Laura Gisselle Murcia Pardo',
+          nombre: 'Laura Giselle Murcia Pardo',
           cargo: 'Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional - Santander',
@@ -340,22 +340,22 @@ export default {
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos digitales',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
           cargo: 'Validador y vinculador de recursos digitales',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
