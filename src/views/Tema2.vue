@@ -125,7 +125,7 @@
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
                 img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
-                p.ms-5.mb-0 Herramienta de comunicación para optimización de la Imagen de la organización.
+                p.ms-5.mb-0 Herramienta de comunicación para optimización de la imagen de la organización.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
@@ -176,7 +176,7 @@
             figure
               img(src="@/assets/curso/tema2/img14.png", data-aos="zoom-in")
           .col-md-12.col-lg-7
-            p.mb-3(data-aos="fade-right") Un protocolo es el grupo de métodos para asegurar que un producto o servicio cumpla con ciertos criterios. Para el caso del protocolo del sistema de gestión tales criterios serían la calidad o los requisitos del comprador.
+            p.mb-3(data-aos="fade-right") Un protocolo es el grupo de métodos para asegurar que un producto o servicio cumpla con ciertos criterios. Para el caso del protocolo del sistema de gestión tales, criterios serían la calidad o los requisitos del comprador.
             p.mb-3(data-aos="fade-right") Los ANS (Acuerdos de Niveles de Servicio), también conocidos como SLA, establecen la relación entre el cliente y el proveedor.
             p.mb-0(data-aos="fade-right") Estos ANS identifican y definen las necesidades del cliente a la vez que controla sus expectativas de servicio en relación a la capacidad del proveedor, proporciona un marco de entendimiento, simplifica asuntos complicados, reduce las áreas de conflicto y favorece el diálogo ante la disputa.
           
@@ -231,7 +231,7 @@
             tbody
               tr
                 td.text-left <b>ISO 9001.</b>	
-                td.text-left Capítulo 7 numeral 5: control de la producción y la prestación del servicio, dice que se debe asegurar la implementación del seguimiento y la medición así como la implementación de actividades de entrega del producto. De igual manera, en el capítulo 8, numeral 1 se hace mención de la satisfacción del cliente y en el capítulo 8, numeral 5 de la mejora continua.
+                td.text-left Capítulo 7 numeral 5: control de la producción y la prestación del servicio, dice que se debe asegurar la implementación del seguimiento y la medición, así como la implementación de actividades de entrega del producto. De igual manera, en el capítulo 8, numeral 1 se hace mención de la satisfacción del cliente y en el capítulo 8, numeral 5 de la mejora continua.
               
               tr
                 td.text-left <b>ITIL Information <em>Technology Infrastructure Library ITIL</em> V3. 2011.</b>	

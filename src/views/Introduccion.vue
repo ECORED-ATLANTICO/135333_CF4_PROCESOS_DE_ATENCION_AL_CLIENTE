@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p Bienvenido al componente “Gestión de requerimientos e Indicadores de gestión”. Para comenzar este recorrido, se invita a explorar el recurso que se muestra a continuación:
+    p Bienvenido al componente “Gestión de requerimientos e indicadores de gestión”. Para comenzar este recorrido, se invita a explorar el recurso que se muestra a continuación:
 
     figure.mb-5
       .video-mb-2(data-aos="fade-up")

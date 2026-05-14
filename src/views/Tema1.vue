@@ -164,7 +164,7 @@
             .col-lg-8.mb-4
               h4 Datos sensibles
               p.mb-0 Son aquellos que pueden llegar a afectar la intimidad del titular.
-              p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular como pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos son datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
+              p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular como, pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos son, datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
             .col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img17.png', alt='Imagen de acompañamiento')
@@ -172,7 +172,7 @@
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
               h4 Datos sensibles - excepciones
-              p.mb-3 En el tratamiento de los datos sensibles se tiene algunas excepciones, como son:
+              p.mb-3 En el tratamiento de los datos sensibles se tienen algunas excepciones, como son:
               ul.lista-ul
                 li 
                   i.fas.fa-check.color-5
@@ -221,7 +221,7 @@
             .col-lg-8.mb-4
               h4 Autorización especial de datos personales sensibles
 
-              p.mb-0 Se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares. Es decir, el manejo de los datos sensibles. No obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos; por lo tanto, no se tiene la obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles.
+              p.mb-0 Se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares. Es decir, el manejo de los datos sensibles. No obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, facultan el manejo de los datos; por lo tanto, no se tiene la obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles.
               
             .col-lg-4.mb-3.mb-lg-0
               figure
@@ -280,9 +280,9 @@
                   .col.mb-3.mb-sm-0
                     p.m-0 Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, <b>"Legislación en protección de datos personales en Colombia"</b> o bien puede visualizarlo dando clic en el botón.
                   .col-sm-auto.p-lg-4.text-center
-                    a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/bvAH9ppBbbE" target="_blank")
+                    a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/watch?v=bvAH9ppBbbE" target="_blank")
                       span ver video
-                      i.fas.fa-file-download
+                      i.fas.fa-play
 
         .col-md-12.col-lg-10.mb-5
           p.mb-0 Ahora, se relacionan otras normas que están relacionadas con atención al cliente, donde los ciudadanos pueden basarse para someter PQR (peticiones, quejas y reclamos) son las que aparecen a continuación:
@@ -382,7 +382,7 @@
           .col-lg-8
             p.mb-3 En logística, la trazabilidad se refiere a la capacidad de rastrear las mercancías a lo largo de la cadena de distribución, sobre la base de un número de lote o de serie.
             p.mb-3 La definición de los objetivos estratégicos, las metas, los proyectos y los indicadores es un factor determinante para establecer el calendario y el flujo de las cadenas de suministro. Siempre es necesario tener un plan B y C en caso de que la alternativa falle y ofrecer un buen servicio.
-            p.mb-0 Para estar informado sobre el inventario de mercancías en almacén, es necesario implementar un sistema de información debido a que ofrecen en tiempo real un estado de entradas y salidas de los productos.
+            p.mb-0 Para estar informado sobre el inventario de mercancías en almacén, es necesario implementar un sistema de información debido, a que ofrecen en tiempo real un estado de entradas y salidas de los productos.
 
 
       .col-md-12.col-lg-10
@@ -448,7 +448,7 @@
                 figure
                   img.posit_3(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-6
-                p Al igual una petición, queja o reclamo, la respuesta debe ser clara y <b>emitirse dentro de los tiempos estipulados por la ley</b>, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
+                p Al igual una petición, queja o reclamo, la respuesta debe ser clara y <b>emitirse dentro de los tiempos estipulados por la ley</b>, en caso de no ser posible cumplir los tiempos se debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
         .row.justify-center
           .col-12.col-lg-10.align-items-center
             p La notificación o respuestas, según lo previsto en la Ley 1480 del 2011 (Estatuto del Consumidor) y en el Decreto 1074 del 2015, <b>deberá proporcionarse durante los 15 días hábiles siguientes a la recepción de la reclamación</b>, deben ser escritas ya sea en carta o email certificado y describir las causas por las cuales se dictamina en tal sentido y con las pruebas que sean soporte de sustento para la misma.
@@ -500,9 +500,9 @@
                   p.m-0 En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica <b>la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos.</b>
 
                 .col-sm-auto.p-lg-4.text-center
-                  a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/embed/n4GaN2DuI9Q" target="_blank")
+                  a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/watch?v=n4GaN2DuI9Q" target="_blank")
                     span ver video
-                    i.fas.fa-file-download
+                    i.fas.fa-play
 
       .col-md-12.col-lg-10
         p Para un mejor entendimiento en relación con la atención y seguimiento de PQR, cada organización por norma tendrá que fijar un aviso en sitio visible de atención de servicios con el nombre de la persona designada para atender inquietudes y reclamos o, en caso de que persista la inconformidad, el del responsable empresarial.

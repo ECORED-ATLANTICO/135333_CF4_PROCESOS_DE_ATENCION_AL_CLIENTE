@@ -30,7 +30,7 @@
     
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
-        p.mb-3 Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación donde el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
+        p.mb-3 Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación donde, el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
         p.mb-0 Se pueden reconocer los elementos de un indicador de gestión, de acuerdo con el siguiente esquema:
 
     //- figura
@@ -101,7 +101,7 @@
       .row.justify-content-center.mb-4
         .col-md-12.col-lg-10
           p.mb-3 Todo lo anterior constituye el conjunto de signos vitales de la organización (Mora, 2004).
-          p.mb-0 Las siguientes son las características generales de los indicadores que pueden ayudar a garantizar sean útiles y eficaces: 
+          p.mb-0 Las siguientes son las características generales de los indicadores que pueden ayudar a garantizar que sean útiles y eficaces: 
 
       .row.justify-content-center.mb-5
         .col-md-12.col-lg-10
@@ -109,7 +109,7 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Relevante")
               .row.justify-content-center.align-items-center
                 .col-lg-12.order-lg-1
-                  p.mb-0 Relacionar los indicadores de rendimiento con las metas y objetivos la organización. Lo ideal es que sean relevantes para las personas que proporcionan los datos y para los usuarios, pero puede que no sea posible que un solo indicador sea relevante para todos los usuarios, esto debido a las diferencias de perspectivas e intereses.
+                  p.mb-0 Relacionar los indicadores de rendimiento con las metas y objetivos de la organización. Lo ideal es que sean relevantes para las personas que proporcionan los datos y para los usuarios, pero puede que no sea posible que un solo indicador sea relevante para todos los usuarios, esto debido a las diferencias de perspectivas e intereses.
             
             .tarjeta.color-acento-botones--borde.p-4(titulo="Definición clara")
               .row.justify-content-center.align-items-center
@@ -310,7 +310,7 @@
             p El objetivo debe ser específico y estar muy claramente definido.
 
           div(titulo="Alcanzable")
-            p El progreso hacia el objetivo debe ser medible. En la mayoría de los casos significa que puede cuantificarse. Sin embargo, a veces puede ser difícil; y es más sencillo, sin dejar de ser eficaz, tener, al menos, una definición clara de cómo evaluar el nivel de rendimiento. Como regla general, el 80% de los objetivos deberían estar cuantificados.
+            p El progreso hacia el objetivo debe ser medible. En la mayoría de los casos significa que puede cuantificarse. Sin embargo, a veces puede ser difícil; y es más sencillo, sin dejar de ser eficaz, tener, al menos, una definición clara de cómo evaluar el nivel de rendimiento. Como regla general, el 80 % de los objetivos deberían estar cuantificados.
 
           div(titulo="Relevante")
             p El objetivo debe ser alcanzable. Si el objetivo es demasiado ambicioso, puede desmotivar al equipo. Por el contrario, si es demasiado fácil, no supondrá un reto y no contribuirá al crecimiento de la empresa.
@@ -331,7 +331,7 @@
 
       .col-md-12.col-lg-10.mb-4(data-aos="fade-right")
         .cajon.bg-primario.p-4
-          p.mb-0 Los indicadores de gestión se deben diseñar para monitorear el resultado de una variable de acuerdo a la necesidad de cada nivel organizacional y su resultado está expresado de manera numérica, que nos indica el nivel de desempeño o el cumplimiento de los objetivos trazados. Es indispensable que toda empresa desarrolle habilidades alrededor del manejo de los indicadores de gestión logística, con el fin de poder utilizar la información resultante de manera oportuna para tomar decisiones (Mora, 2004).
+          p.mb-0 Los indicadores de gestión se deben diseñar para monitorear el resultado de una variable de acuerdo a la necesidad de cada nivel organizacional y su resultado está expresado de manera numérica, que nos indica el nivel de desempeño o el cumplimiento de los objetivos trazados. Es indispensable que toda empresa desarrolle habilidades alrededor del manejo de los indicadores de gestión logística, con el fin de poder utilizar la información resultante de manera oportuna tomar decisiones (Mora, 2004).
 
       .col-md-12.col-lg-10.mb-4
         p.mb-3(data-aos="fade-right") Para aplicar y/o establecer los indicadores de gestión (KPI) es importante tener claridad sobre cómo hacerlo correctamente, de dónde son las fuentes de información, responsables, recursos, frecuencia de la medición y presentación de los informes.
@@ -552,7 +552,7 @@
               img(src="@/assets/curso/tema3/img22.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
             p.mb-3(data-aos="fade-right") Estos reportes e informes de gestión basados en los indicadores de gestión, deben centrarse en las estrategias de valor que se han diseñado para la satisfacción del cliente y en las áreas organizacionales comprometidas en la atención, colaboración con el cliente y oportunidades de negocio. Los reportes o informes inherentes al desempeño de las áreas se deben presentar por cada uno de los responsables con su respectivo análisis de los resultados arrojados; pero antes de lo anterior es necesario establecer los KPI en cada área o actividad.
-            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
+            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en, el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-12
