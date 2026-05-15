@@ -306,14 +306,17 @@
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Medible")
+          div(titulo="Específico")
             p El objetivo debe ser específico y estar muy claramente definido.
 
-          div(titulo="Alcanzable")
+          div(titulo="Medible")
             p El progreso hacia el objetivo debe ser medible. En la mayoría de los casos significa que puede cuantificarse. Sin embargo, a veces puede ser difícil; y es más sencillo, sin dejar de ser eficaz, tener, al menos, una definición clara de cómo evaluar el nivel de rendimiento. Como regla general, el 80 % de los objetivos deberían estar cuantificados.
 
+          div(titulo="Alcanzable")
+            p El objetivo puede lograrse de forma realista. Se añade que la organización debe mejorar constantemente y adelantarse a su competencia, lo que debe reflejarse en objetivos que también sean ambiciosos y adaptados cuando el entorno cambie (o cuando se cumplan los objetivos). Sin embargo, esto no significa que todos los objetivos deban ser impulsados hacia arriba, ya que esto puede ser perjudicial para las condiciones de trabajo y de las personas; esto es parte del desafío de la dirección para elegir cuándo y qué objetivo debe ser adaptado, hacia arriba o hacia abajo.
+
           div(titulo="Relevante")
-            p El objetivo debe ser alcanzable. Si el objetivo es demasiado ambicioso, puede desmotivar al equipo. Por el contrario, si es demasiado fácil, no supondrá un reto y no contribuirá al crecimiento de la empresa.
+            p El objetivo debe ser relevante para la organización al estar alineado con la estrategia y la práctica o proceso que mide.
 
           div(titulo="A tiempo")
             p El plazo para alcanzar el objetivo debe ser claro.
@@ -552,7 +555,7 @@
               img(src="@/assets/curso/tema3/img22.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
             p.mb-3(data-aos="fade-right") Estos reportes e informes de gestión basados en los indicadores de gestión, deben centrarse en las estrategias de valor que se han diseñado para la satisfacción del cliente y en las áreas organizacionales comprometidas en la atención, colaboración con el cliente y oportunidades de negocio. Los reportes o informes inherentes al desempeño de las áreas se deben presentar por cada uno de los responsables con su respectivo análisis de los resultados arrojados; pero antes de lo anterior es necesario establecer los KPI en cada área o actividad.
-            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en, el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
+            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-12
@@ -562,19 +565,19 @@
             span Informes perspectiva de los clientes
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Tomada de Revista Española de Financiación y Contabilidad (2005)
+            caption Nota. Tomada de Revista Española de Financiación y Contabilidad (2005).
             thead
-              tr.bg-color-3
-                th(colspan="4").text-center Informes perspectiva de los clientes
               tr
                 th Informe
                 th Plazo
                 th Destinatario
                 th Característica
             tbody
-              tr.bg-color-white
-                td(colspan="4").text-center
-                  b Informes sobre oportunidad de atención
+              tr
+                td Informes sobre oportunidad de atención.
+                td Informes sobre oportunidad de atención.
+                td Informes sobre oportunidad de atención.
+                td Informes sobre oportunidad de atención.
               tr
                 td Propuestas solicitadas por clientes.
                 td Semanal.
@@ -600,9 +603,11 @@
                 td Mensual.
                 td Producción, ventas y dirección.
                 td Comparativo mensual y anual.
-              tr.bg-color-white
-                td(colspan="4").text-center
-                  b Informes sobre colaboración con cliente
+              tr
+                td Informes sobre colaboración con clientes.
+                td Informes sobre colaboración con clientes.
+                td Informes sobre colaboración con clientes.
+                td Informes sobre colaboración con clientes.
               tr
                 td Nivel de conectividad e información compartida.
                 td Mensual.

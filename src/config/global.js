@@ -192,27 +192,28 @@ export default {
   referencias: [
     {
       referencia:
-        'Mora, L. A. (2004). Indicadores de gestión logísticos. FESC. ',
+        'Mora, L. A. (2004). <i>Indicadores de gestión logísticos</i>. FESC.',
     },
     {
       referencia:
-        'Normas-iso.com. (s. f.). ISO. Normas ISO 9001: Sistemas de gestión de la calidad.',
+        'Normas-iso.com. (s. f.). ISO. <i>Normas ISO 9001: Sistemas de gestión de la calidad</i>.',
       link: 'https://www.normas-iso.com/iso-9001/',
     },
     {
-      referencia: 'RAE. (2020). Definición de expectativa.',
+      referencia: 'RAE. (2020). <i>Definición de expectativa</i>.',
       link: 'https://dle.rae.es/expectativa?m=form',
     },
     {
-      referencia: 'RAE. (2020). Definición de percepción.',
+      referencia: 'RAE. (2020). <i>Definición de percepción</i>.',
       link: 'https://dle.rae.es/percepci%C3%B3n',
     },
     {
-      referencia: 'RAE. (2020). Definición de política.',
+      referencia: 'RAE. (2020). <i>Definición de política</i>.',
       link: 'https://dle.rae.es/pol%C3%ADtico',
     },
     {
-      referencia: 'Revista Zona Logística. (2017). La logística del servicio.',
+      referencia:
+        'Revista Zona Logística. (2017). <i>La logística del servicio</i>.',
       link: 'https://zonalogistica.com/la-logistica-del-servicio/',
     },
   ],
@@ -240,23 +241,28 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Nelly Parra Guarín',
           cargo: 'Experta temática',
           centro:
-            'Centro de la Industria, la empresa y los Servicios Regional - Huila',
+            'Centro de la Industria, la empresa y los Servicios - Regional Huila',
         },
         {
           nombre: 'Alex García',
           cargo: 'Diseñador instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora metodológica',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
           centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
       ],
@@ -267,76 +273,93 @@ export default {
         {
           nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Yuly Rey',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional – Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Camilo Andrés Bolaño Rey',
           cargo: 'Locución',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Laura Ximena Hurtado Villalba',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Mayerly Pérez Jaimes',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Pedro Nel Calao Zabala',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Laura Giselle Murcia Pardo',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Andrés Díaz Pinto',
+          cargo: 'Desarrollo front-end',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Yuli Marcela Gómez Tarazona',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',

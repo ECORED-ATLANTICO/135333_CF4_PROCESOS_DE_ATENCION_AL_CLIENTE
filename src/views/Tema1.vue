@@ -43,8 +43,8 @@
       .col-md-12.col-lg-12
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Nota. SENA, (2026).
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales.
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
@@ -164,7 +164,7 @@
             .col-lg-8.mb-4
               h4 Datos sensibles
               p.mb-0 Son aquellos que pueden llegar a afectar la intimidad del titular.
-              p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular como, pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos son, datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
+              p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular, como pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos, son datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
             .col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img17.png', alt='Imagen de acompañamiento')
@@ -382,7 +382,7 @@
           .col-lg-8
             p.mb-3 En logística, la trazabilidad se refiere a la capacidad de rastrear las mercancías a lo largo de la cadena de distribución, sobre la base de un número de lote o de serie.
             p.mb-3 La definición de los objetivos estratégicos, las metas, los proyectos y los indicadores es un factor determinante para establecer el calendario y el flujo de las cadenas de suministro. Siempre es necesario tener un plan B y C en caso de que la alternativa falle y ofrecer un buen servicio.
-            p.mb-0 Para estar informado sobre el inventario de mercancías en almacén, es necesario implementar un sistema de información debido, a que ofrecen en tiempo real un estado de entradas y salidas de los productos.
+            p.mb-0 Para estar informado sobre el inventario de mercancías en almacén, es necesario implementar un sistema de información, debido a que ofrecen en tiempo real un estado de entradas y salidas de los productos.
 
 
       .col-md-12.col-lg-10
@@ -409,8 +409,8 @@
       .col-md-12.col-lg-12.mb-4
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Nota. SENA, (2026).
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="Video: componentes de gestión de la cadena de suministro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: componentes de gestión de la cadena de suministro.
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -422,13 +422,15 @@
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Notificación de recepción
 
+    p.mb-4 La notificación de requerimientos de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) es el proceso formal mediante el cual una entidad informa al ciudadano sobre el estado, trámite o respuesta definitiva a su solicitud. En el siguiente video se amplia la información.
+
     //- video
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Nota. SENA, (2026).
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="Video: atención PQR Introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: atención PQR Introducción.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -488,21 +490,21 @@
           p.text-center Un sistema de <b>PQR</b> es el instrumento para el control y mejoramiento constante de los servicios y procesos, así como el responsable de crear la fidelización para los clientes.
 
     .row.justify-content-center.align-items-center.mb-1
-      .col-md-12.col-lg-10
-        .posit_5.bg-color-10.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
-              figure
-                img(src="@/assets/curso/tema1/img40.svg").img90.mx-auto
-            .col-12.col-md-10.col-lg-11
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.m-0 En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica <b>la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos.</b>
+      //- .col-md-12.col-lg-10
+      //-   .posit_5.bg-color-10.p-3.mb-5
+      //-     .row.justify-content-around.align-items-center
+      //-       .col-12.col-md-2.col-lg-1.mb-3.mb-md-0
+      //-         figure
+      //-           img(src="@/assets/curso/tema1/img40.svg").img90.mx-auto
+      //-       .col-12.col-md-10.col-lg-11
+      //-         .row.justify-content-between.align-items-center
+      //-           .col.mb-3.mb-sm-0
+      //-             p.m-0 En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica <b>la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos.</b>
 
-                .col-sm-auto.p-lg-4.text-center
-                  a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/watch?v=n4GaN2DuI9Q" target="_blank")
-                    span ver video
-                    i.fas.fa-play
+      //-           .col-sm-auto.p-lg-4.text-center
+      //-             a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/watch?v=n4GaN2DuI9Q" target="_blank")
+      //-               span ver video
+      //-               i.fas.fa-play
 
       .col-md-12.col-lg-10
         p Para un mejor entendimiento en relación con la atención y seguimiento de PQR, cada organización por norma tendrá que fijar un aviso en sitio visible de atención de servicios con el nombre de la persona designada para atender inquietudes y reclamos o, en caso de que persista la inconformidad, el del responsable empresarial.
@@ -599,8 +601,8 @@
             b Figura 1. 
             span Ciclo básico de PQR.
         figure.mb-4
-          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se muestra el sistema de información transversal: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se muestra el sistema de información transversal: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura del ciclo básico de PQR, inicia por el análisis, distribución, gestión, respuesta, seguimiento, indicadores y recepción.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura del ciclo básico de PQR, inicia por el análisis, distribución, gestión, respuesta, seguimiento, indicadores y recepción.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 

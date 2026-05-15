@@ -176,7 +176,7 @@
             figure
               img(src="@/assets/curso/tema2/img14.png", data-aos="zoom-in")
           .col-md-12.col-lg-7
-            p.mb-3(data-aos="fade-right") Un protocolo es el grupo de métodos para asegurar que un producto o servicio cumpla con ciertos criterios. Para el caso del protocolo del sistema de gestión tales, criterios serían la calidad o los requisitos del comprador.
+            p.mb-3(data-aos="fade-right") Un protocolo es el grupo de métodos para asegurar que un producto o servicio cumpla con ciertos criterios. Para el caso del protocolo del sistema de gestión, tales criterios serían la calidad o los requisitos del comprador.
             p.mb-3(data-aos="fade-right") Los ANS (Acuerdos de Niveles de Servicio), también conocidos como SLA, establecen la relación entre el cliente y el proveedor.
             p.mb-0(data-aos="fade-right") Estos ANS identifican y definen las necesidades del cliente a la vez que controla sus expectativas de servicio en relación a la capacidad del proveedor, proporciona un marco de entendimiento, simplifica asuntos complicados, reduce las áreas de conflicto y favorece el diálogo ante la disputa.
           
@@ -249,8 +249,8 @@
       .col-md-12.col-lg-12
         figure
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/15ZImhs_ijc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen) 
-          figcaption Nota. SENA, (2026).
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/15ZImhs_ijc" title="Video: acuerdos de niveles de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen) 
+          figcaption Video: acuerdos de niveles de servicio.
 
 </template>
 
