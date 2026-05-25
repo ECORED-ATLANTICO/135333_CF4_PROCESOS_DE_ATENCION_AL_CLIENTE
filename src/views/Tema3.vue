@@ -30,7 +30,7 @@
     
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10
-        p.mb-3 Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación donde, el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
+        p.mb-3 Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación, donde el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
         p.mb-0 Se pueden reconocer los elementos de un indicador de gestión, de acuerdo con el siguiente esquema:
 
     //- figura
@@ -555,7 +555,7 @@
               img(src="@/assets/curso/tema3/img22.png", data-aos="zoom-in")
           .col-md-12.col-lg-8
             p.mb-3(data-aos="fade-right") Estos reportes e informes de gestión basados en los indicadores de gestión, deben centrarse en las estrategias de valor que se han diseñado para la satisfacción del cliente y en las áreas organizacionales comprometidas en la atención, colaboración con el cliente y oportunidades de negocio. Los reportes o informes inherentes al desempeño de las áreas se deben presentar por cada uno de los responsables con su respectivo análisis de los resultados arrojados; pero antes de lo anterior es necesario establecer los KPI en cada área o actividad.
-            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión en el mismo se indican los periodos de tiempo de la medición y reporte de los mismos.
+            p.mb-0(data-aos="fade-right") Estos se presentan de acuerdo con la necesidad y periodicidad de las organizaciones de medir sus procesos, cuando se construye un indicador de gestión, se indican los periodos de tiempo de la medición y reporte de los mismos.
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-12
