@@ -13,7 +13,7 @@
     figure.mb-5
       .video-mb-2(data-aos="fade-up")
         iframe(width="100%" height="450" src="https://www.youtube.com/embed/BZTgB0mNmaw" title="Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales.
+      figcaption Video: Gestión de requerimientos e indicadores de gestión
 
 </template>
 
