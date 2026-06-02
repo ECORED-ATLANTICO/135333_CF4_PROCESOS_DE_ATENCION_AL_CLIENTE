@@ -83,7 +83,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Características',
+            titulo: 'Interpretación de los KPI',
             hash: 't_3_1',
           },
           {
@@ -260,11 +260,6 @@ export default {
           cargo: 'Asesora metodológica',
           centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
-          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
-        },
       ],
     },
     {
@@ -274,12 +269,6 @@ export default {
           nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Yuly Rey',
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
@@ -344,22 +333,11 @@ export default {
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
-        {
-          nombre: 'Carlos Andrés Díaz Pinto',
-          cargo: 'Desarrollo front-end',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Yuli Marcela Gómez Tarazona',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',

@@ -453,7 +453,7 @@
                 th Impacto (comentarios)
             tbody
               tr
-                td Nivel de cumplimiento entregas a clientes.
+                td Nivel de cumplimiento entrega a clientes.
                 td Consiste en calcular el porcentaje real de las entregas oportunas y efectivas a los clientes.
                 td 
                   .text-center

@@ -43,8 +43,8 @@
       .col-md-12.col-lg-12
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Ley estatutaria 1581 de 2012 disposiciones generales para la protección de datos personales.
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="Video: Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales.
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
@@ -409,8 +409,8 @@
       .col-md-12.col-lg-12.mb-4
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="Video: componentes de gestión de la cadena de suministro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: componentes de gestión de la cadena de suministro.
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="Video: Componentes de gestión de la cadena de suministro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Componentes de gestión de la cadena de suministro.
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -422,15 +422,15 @@
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Notificación de recepción
 
-    p.mb-4 La notificación de requerimientos de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) es el proceso formal mediante el cual una entidad informa al ciudadano sobre el estado, trámite o respuesta definitiva a su solicitud. En el siguiente video se amplia la información.
+    p.mb-4 La notificación de requerimientos de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) es el proceso formal mediante el cual una entidad informa al ciudadano sobre el estado, trámite o respuesta definitiva a su solicitud. En el siguiente video se amplía la información.
 
     //- video
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         figure(data-aos="fade-up")
           .video-mb-2
-            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="Video: atención PQR Introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: atención PQR Introducción.
+            iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="Video: Atención PQR Introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Atención PQR Introducción.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -601,8 +601,8 @@
             b Figura 1. 
             span Ciclo básico de PQR.
         figure.mb-4
-          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura del ciclo básico de PQR, inicia por el análisis, distribución, gestión, respuesta, seguimiento, indicadores y recepción.').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura del ciclo básico de PQR, inicia por el análisis, distribución, gestión, respuesta, seguimiento, indicadores y recepción.').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se muestra el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se muestra el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
