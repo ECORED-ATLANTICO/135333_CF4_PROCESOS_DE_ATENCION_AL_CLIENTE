@@ -241,19 +241,19 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Nelly Parra Guarín',
           cargo: 'Experta temática',
           centro:
-            'Centro de la Industria, la empresa y los Servicios - Regional Huila',
+            'Centro de la Industria, la empresa y los Servicios Regional - Huila',
         },
         {
           nombre: 'Alex García',
           cargo: 'Diseñador instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
@@ -268,70 +268,70 @@ export default {
         {
           nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Centro de Comercio y Servicios Regional – Tolima',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Camilo Andrés Bolaño Rey',
           cargo: 'Locución',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
         },
         {
           nombre: 'Laura Ximena Hurtado Villalba',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Mayerly Pérez Jaimes',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Pedro Nel Calao Zabala',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Laura Giselle Murcia Pardo',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
       ],
     },

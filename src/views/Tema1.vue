@@ -601,8 +601,8 @@
             b Figura 1. 
             span Ciclo básico de PQR.
         figure.mb-4
-          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se muestra el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-none.d-md-block.d-sm-none
-          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se muestra el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-block.d-md-none.d-sm-block
+          img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se detalla el ciclo básico de las PQR así: el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-none.d-md-block.d-sm-none
+          img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se detalla el ciclo básico de las PQR así: el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-block.d-md-none.d-sm-block
 
         figcaption 
           b Nota. 
